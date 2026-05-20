@@ -1,5 +1,5 @@
 {
-  "installCommand": "yarn set version 4.3.0 && yarn install",
+  "installCommand": "yarn set version 4.3.0 && yarn install --no-immutable",
   "buildCommand": "yarn build:web",
   "outputDirectory": "apps/web/dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]

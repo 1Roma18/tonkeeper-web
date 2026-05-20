@@ -16741,6 +16741,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"qazaq-wallet@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "qazaq-wallet@workspace:."
+  dependencies:
+    "@tonkeeper/uikit": "workspace:^"
+    "@typescript-eslint/eslint-plugin": "npm:^5.50.0"
+    "@typescript-eslint/parser": "npm:^5.50.0"
+    eslint: "npm:^8.33.0"
+    eslint-config-airbnb-typescript: "npm:^17.0.0"
+    eslint-config-prettier: "npm:^8.6.0"
+    eslint-plugin-i18next: "npm:^6.0.0-2"
+    eslint-plugin-import: "npm:^2.27.5"
+    eslint-plugin-mobx: "npm:^0.0.9"
+    eslint-plugin-prettier: "npm:^4.2.1"
+    eslint-plugin-react: "npm:^7.32.2"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    eslint-plugin-unused-imports: "npm:^2.0.0"
+    husky: "npm:^9.1.7"
+    lint-staged: "npm:^15"
+    postcss-styled-syntax: "npm:^0.7"
+    prettier: "npm:^2.6.2"
+    stylelint: "npm:^16"
+    stylelint-config-standard: "npm:^36"
+    turbo: "npm:^2.0.4"
+    typescript: "npm:^4.9.4"
+    webpack: "npm:^5.104.0"
+    webpack-cli: "npm:^5.0.1"
+    wrangler: "npm:^3.114.17"
+  languageName: unknown
+  linkType: soft
+
 "qified@npm:^0.10.1":
   version: 0.10.1
   resolution: "qified@npm:0.10.1"
@@ -19263,37 +19294,6 @@ __metadata:
   checksum: 10/952c29e2a85d7123239b5cfdd889a0dde47ab0497f0913d70588f19c53f7e0b5327c95f4651e413c74b785147f9637b17410ac8c846d5d4a20a5a33eb6dc3a45
   languageName: node
   linkType: hard
-
-"tonkeeper-web@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tonkeeper-web@workspace:."
-  dependencies:
-    "@tonkeeper/uikit": "workspace:^"
-    "@typescript-eslint/eslint-plugin": "npm:^5.50.0"
-    "@typescript-eslint/parser": "npm:^5.50.0"
-    eslint: "npm:^8.33.0"
-    eslint-config-airbnb-typescript: "npm:^17.0.0"
-    eslint-config-prettier: "npm:^8.6.0"
-    eslint-plugin-i18next: "npm:^6.0.0-2"
-    eslint-plugin-import: "npm:^2.27.5"
-    eslint-plugin-mobx: "npm:^0.0.9"
-    eslint-plugin-prettier: "npm:^4.2.1"
-    eslint-plugin-react: "npm:^7.32.2"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-unused-imports: "npm:^2.0.0"
-    husky: "npm:^9.1.7"
-    lint-staged: "npm:^15"
-    postcss-styled-syntax: "npm:^0.7"
-    prettier: "npm:^2.6.2"
-    stylelint: "npm:^16"
-    stylelint-config-standard: "npm:^36"
-    turbo: "npm:^2.0.4"
-    typescript: "npm:^4.9.4"
-    webpack: "npm:^5.104.0"
-    webpack-cli: "npm:^5.0.1"
-    wrangler: "npm:^3.114.17"
-  languageName: unknown
-  linkType: soft
 
 "touch@npm:^3.1.0":
   version: 3.1.1
