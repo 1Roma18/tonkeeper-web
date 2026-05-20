@@ -6,6 +6,22 @@ import { injectCSP, metaTagCspConfig } from '@tonkeeper/core/dist/utils/csp';
 
 const base = process.env.VITE_BASE_PATH || '/';
 
+/** Known third-party warnings that do not affect the web wallet build */
+function shouldSuppressRollupWarning(warning: { code?: string; id?: string; message?: string }) {
+    const id = warning.id ?? '';
+    const msg = warning.message ?? '';
+
+    if (warning.code === 'EVAL' && id.includes('lottie-web')) {
+        return true;
+    }
+
+    if (msg.includes('dynamically imported') && (msg.includes('bip39') || msg.includes('mnemonicService'))) {
+        return true;
+    }
+
+    return false;
+}
+
 export default defineConfig({
     base,
     plugins: [
@@ -28,6 +44,16 @@ export default defineConfig({
     optimizeDeps: {
         exclude: ['@tonkeeper/core', '@tonkeeper/locales'],
         include: ['buffer']
+    },
+    build: {
+        rollupOptions: {
+            onwarn(warning, warn) {
+                if (shouldSuppressRollupWarning(warning)) {
+                    return;
+                }
+                warn(warning);
+            }
+        }
     },
     resolve: {
         alias: {
