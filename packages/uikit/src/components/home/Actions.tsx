@@ -126,6 +126,10 @@ export const ActionsRow = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
+    min-height: 72px;
     margin-bottom: 2rem;
+    position: relative;
+    z-index: 2;
 `;

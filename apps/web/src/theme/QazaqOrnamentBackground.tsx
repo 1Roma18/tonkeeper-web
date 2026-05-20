@@ -1,7 +1,5 @@
 import { FC } from 'react';
 import styled from 'styled-components';
-import { KoshkarMuiizHeader } from '../components/KoshkarMuiizOrnament';
-
 const Backdrop = styled.div`
     position: fixed;
     inset: 0;
@@ -23,20 +21,9 @@ const SideGlow = styled.div<{ $side: 'left' | 'right' }>`
             : 'linear-gradient(270deg, rgba(0, 178, 178, 0.08) 0%, transparent 100%)'};
 `;
 
-const TopOrnament = styled.div`
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-`;
-
 export const QazaqOrnamentBackground: FC = () => (
     <Backdrop aria-hidden>
         <SideGlow $side="left" />
         <SideGlow $side="right" />
-        <TopOrnament>
-            <KoshkarMuiizHeader variant="splash" />
-        </TopOrnament>
     </Backdrop>
 );

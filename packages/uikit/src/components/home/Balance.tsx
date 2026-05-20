@@ -48,6 +48,7 @@ const Body = styled(Label2)`
 `;
 
 const Amount = styled(Num2)`
+    color: ${p => p.theme.textPrimary};
     margin-bottom: 0.5rem;
     user-select: none;
     display: flex;
