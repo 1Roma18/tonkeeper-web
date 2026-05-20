@@ -1,1 +1,1 @@
-export const localesList = ['kk', 'en', 'ru'] as const;
+export const localesList: string[] = ['kk', 'en', 'ru'];
