@@ -14,15 +14,17 @@ interface ActionProps {
 }
 
 const Text = styled(Label3)`
-    color: ${props => props.theme.textSecondary};
+    color: ${props => props.theme.textPrimary};
 `;
 
 const Button = styled.div`
     width: 44px;
     height: 44px;
     border-radius: ${props => props.theme.cornerFull};
-    color: ${props => props.theme.textPrimary};
+    color: ${props => props.theme.accentBlue};
     background-color: ${props => props.theme.backgroundContent};
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     display: flex;
     justify-content: center;
     align-items: center;

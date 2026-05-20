@@ -17,8 +17,8 @@ const SideGlow = styled.div<{ $side: 'left' | 'right' }>`
     ${p => (p.$side === 'left' ? 'left: 0;' : 'right: 0;')}
     background: ${p =>
         p.$side === 'left'
-            ? 'linear-gradient(90deg, rgba(0, 178, 178, 0.08) 0%, transparent 100%)'
-            : 'linear-gradient(270deg, rgba(0, 178, 178, 0.08) 0%, transparent 100%)'};
+            ? 'linear-gradient(90deg, rgba(255, 255, 255, 0.12) 0%, transparent 100%)'
+            : 'linear-gradient(270deg, rgba(255, 255, 255, 0.12) 0%, transparent 100%)'};
 `;
 
 export const QazaqOrnamentBackground: FC = () => (

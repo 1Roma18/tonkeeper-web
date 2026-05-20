@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren, useEffect, useMemo } from 'react';
 import { ThemeProvider, useTheme } from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
-import { applyQazaqPalette, KZ_GRAPHITE } from './qazaqPalette';
+import { applyQazaqPalette, KZ_FLAG_SKY } from './qazaqPalette';
 import { QazaqOrnamentBackground } from './QazaqOrnamentBackground';
 
 const QazaqWebGlobalStyle = createGlobalStyle`
@@ -21,9 +21,9 @@ const QazaqThemeInner: FC<PropsWithChildren> = ({ children }) => {
     const qazaq = useMemo(() => applyQazaqPalette(base), [base]);
 
     useEffect(() => {
-        document.body.style.background = KZ_GRAPHITE;
+        document.body.style.background = KZ_FLAG_SKY;
         const meta = document.querySelector('meta[name="theme-color"]');
-        if (meta) meta.setAttribute('content', KZ_GRAPHITE);
+        if (meta) meta.setAttribute('content', KZ_FLAG_SKY);
     }, []);
 
     return (

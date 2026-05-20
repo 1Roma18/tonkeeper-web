@@ -1,44 +1,47 @@
 import type { DefaultTheme } from 'styled-components';
 import { defaultTheme } from '@tonkeeper/uikit/dist/styles/defaultTheme';
+import { TONKEEPER_BLUE } from '@tonkeeper/uikit/dist/styles/kzBrand';
 
-export const KZ_GRAPHITE = '#12131A';
-export const KZ_GRAPHITE_ELEVATED = '#1A1D27';
-export const KZ_GRAPHITE_TINT = '#242836';
-export const KZ_TURQUOISE = '#00B2B2';
-export const KZ_GOLD = '#E5A93B';
-export const KZ_GOLD_LIGHT = '#F5C56A';
-export const KZ_GOLD_DARK = '#B8872E';
+/** Қазақстан туы — аспан көгілдірі */
+export const KZ_FLAG_SKY = '#00AFCA';
+export const KZ_FLAG_SKY_DARK = '#0090B8';
+export const KZ_FLAG_GOLD = '#FEC107';
 
-export const qazaqPageBackground = `linear-gradient(180deg, ${KZ_GRAPHITE} 0%, #0E1016 100%)`;
+export const qazaqPageBackground = `linear-gradient(180deg, ${KZ_FLAG_SKY} 0%, ${KZ_FLAG_SKY_DARK} 55%, #007AA3 100%)`;
+
+/** Круглые кнопки на главном экране — как в Tonkeeper Web (светлые на синем фоне) */
+export const QAZAQ_HOME_ACTION_BG = 'rgba(255, 255, 255, 0.18)';
+export const QAZAQ_HOME_ACTION_BG_HOVER = 'rgba(255, 255, 255, 0.28)';
 
 export const qazaqFintechTheme: DefaultTheme = {
     ...defaultTheme,
-    textAccent: KZ_TURQUOISE,
-    accentBlue: KZ_TURQUOISE,
-    accentBlueConstant: KZ_TURQUOISE,
+    textAccent: TONKEEPER_BLUE,
+    accentBlue: TONKEEPER_BLUE,
+    accentBlueConstant: TONKEEPER_BLUE,
     backgroundPage: qazaqPageBackground,
-    backgroundTransparent: 'rgba(18, 19, 26, 0.96)',
-    backgroundContent: KZ_GRAPHITE_ELEVATED,
-    backgroundContentTint: KZ_GRAPHITE_TINT,
-    backgroundContentAttention: '#2E3344',
-    backgroundHighlighted: 'rgba(229, 169, 59, 0.1)',
-    buttonPrimaryBackground: KZ_GOLD,
-    buttonPrimaryForeground: KZ_GRAPHITE,
-    buttonPrimaryBackgroundHighlighted: KZ_GOLD_LIGHT,
-    buttonPrimaryBackgroundDisabled: KZ_GOLD_DARK,
-    buttonSecondaryBackground: KZ_GRAPHITE_ELEVATED,
-    buttonTertiaryBackground: KZ_GRAPHITE_TINT,
-    fieldBackground: KZ_GRAPHITE_ELEVATED,
-    fieldActiveBorder: KZ_GOLD,
-    tabBarActiveIcon: KZ_GOLD,
-    tabBarInactiveIcon: '#7A8194',
-    iconPrimaryAlternate: KZ_GRAPHITE,
-    textPrimaryAlternate: KZ_GRAPHITE,
-    separatorAlternate: 'rgba(229, 169, 59, 0.12)',
-    gradientBackgroundTop: `linear-gradient(180deg, ${KZ_GRAPHITE} 0%, transparent 100%)`,
-    gradientBackgroundBottom: `linear-gradient(0deg, ${KZ_GRAPHITE} 0%, transparent 100%)`,
-    gradientBlueTop: `linear-gradient(180deg, ${KZ_TURQUOISE} 0%, transparent 100%)`,
-    gradientBlueBottom: `linear-gradient(0deg, ${KZ_TURQUOISE} 0%, transparent 100%)`
+    backgroundTransparent: 'rgba(0, 175, 202, 0.92)',
+    backgroundContent: QAZAQ_HOME_ACTION_BG,
+    backgroundContentTint: QAZAQ_HOME_ACTION_BG_HOVER,
+    backgroundContentAttention: 'rgba(255, 255, 255, 0.22)',
+    backgroundHighlighted: 'rgba(254, 193, 7, 0.15)',
+    buttonPrimaryBackground: KZ_FLAG_GOLD,
+    buttonPrimaryForeground: '#1A1A1A',
+    buttonPrimaryBackgroundHighlighted: '#FFD54F',
+    buttonPrimaryBackgroundDisabled: '#C9A227',
+    buttonSecondaryBackground: 'rgba(255, 255, 255, 0.14)',
+    buttonTertiaryBackground: 'rgba(255, 255, 255, 0.1)',
+    fieldBackground: 'rgba(255, 255, 255, 0.12)',
+    fieldActiveBorder: KZ_FLAG_GOLD,
+    tabBarActiveIcon: KZ_FLAG_GOLD,
+    tabBarInactiveIcon: 'rgba(255, 255, 255, 0.55)',
+    iconPrimaryAlternate: '#1A1A1A',
+    textPrimaryAlternate: '#1A1A1A',
+    separatorCommon: 'rgba(255, 255, 255, 0.2)',
+    separatorAlternate: 'rgba(254, 193, 7, 0.2)',
+    gradientBackgroundTop: `linear-gradient(180deg, ${KZ_FLAG_SKY} 0%, transparent 100%)`,
+    gradientBackgroundBottom: `linear-gradient(0deg, ${KZ_FLAG_SKY_DARK} 0%, transparent 100%)`,
+    gradientBlueTop: `linear-gradient(180deg, ${TONKEEPER_BLUE} 0%, transparent 100%)`,
+    gradientBlueBottom: `linear-gradient(0deg, ${TONKEEPER_BLUE} 0%, transparent 100%)`
 };
 
 export function applyQazaqPalette(theme: DefaultTheme): DefaultTheme {
@@ -53,13 +56,14 @@ export function applyQazaqPalette(theme: DefaultTheme): DefaultTheme {
             ...theme,
             ...layout,
             backgroundPage: qazaqPageBackground,
-            backgroundContent: KZ_GRAPHITE_ELEVATED,
-            backgroundContentTint: KZ_GRAPHITE_TINT,
-            textAccent: KZ_TURQUOISE,
-            accentBlueConstant: KZ_TURQUOISE,
-            tabBarActiveIcon: KZ_GOLD,
-            buttonPrimaryBackground: KZ_GOLD,
-            buttonPrimaryForeground: KZ_GRAPHITE
+            backgroundContent: QAZAQ_HOME_ACTION_BG,
+            backgroundContentTint: QAZAQ_HOME_ACTION_BG_HOVER,
+            textAccent: TONKEEPER_BLUE,
+            accentBlue: TONKEEPER_BLUE,
+            accentBlueConstant: TONKEEPER_BLUE,
+            tabBarActiveIcon: KZ_FLAG_GOLD,
+            buttonPrimaryBackground: KZ_FLAG_GOLD,
+            buttonPrimaryForeground: '#1A1A1A'
         };
     }
     return { ...qazaqFintechTheme, ...layout };
