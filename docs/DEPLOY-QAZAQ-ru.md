@@ -74,6 +74,39 @@ npx wrangler pages deploy apps/web/dist --project-name=qazaq-wallet
 
 ---
 
+## 4. Vercel (qazaq-wallet.vercel.app)
+
+В **Project Settings → General**:
+
+| Поле | Значение |
+|------|----------|
+| Root Directory | `./` |
+| Build Command | `yarn build:web` |
+| Output Directory | `apps/web/dist` |
+| Node.js | 20.x |
+
+`vercel.json` в корне уже задаёт install через `yarn workspaces focus` — **без** `wrangler`/`workerd`, чтобы не падать на `GLIBC_2.35`.
+
+### Ошибка `workerd` / `GLIBC_2.35` при Install
+
+Причина: пакет **wrangler** (Cloudflare) тянет бинарник `workerd`, которому нужна новая glibc, чем на образе Vercel.
+
+**Решение (уже в репо):** `wrangler` только в `apps/twa`, для web — `yarn workspaces focus @tonkeeper/web ...`.
+
+После правок локально:
+
+```powershell
+cd C:\Users\User\Documents\qazaq-wallet
+yarn install --no-immutable
+git add package.json vercel.json apps/twa/package.json yarn.lock
+git commit -m "fix(vercel): skip wrangler/workerd on web install"
+git push
+```
+
+Затем **Redeploy** в Vercel.
+
+---
+
 ## Ссылка на код для AI (без деплоя)
 
 Можно дать боту **URL репозитория**:

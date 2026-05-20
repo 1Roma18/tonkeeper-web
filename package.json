@@ -10,7 +10,7 @@
         "build": "npx turbo build",
         "build:web": "npx turbo build:web",
         "build:twa": "npx turbo build:twa",
-        "deploy:twa": "npx turbo build:twa && npx wrangler pages deploy apps/twa/build",
+        "deploy:twa": "npx turbo build:twa && yarn workspace @tonkeeper/twa run deploy",
         "build:extension": "npx turbo build:extension",
         "build:desktop": "npx turbo build:desktop",
         "build:ipad": "npx turbo build:ipad",
@@ -47,8 +47,7 @@
         "turbo": "^2.0.4",
         "typescript": "^4.9.4",
         "webpack": "^5.104.0",
-        "webpack-cli": "^5.0.1",
-        "wrangler": "^3.114.17"
+        "webpack-cli": "^5.0.1"
     },
     "workspaces": {
         "packages": [

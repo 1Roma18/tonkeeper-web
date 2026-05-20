@@ -1,5 +1,5 @@
 {
-  "installCommand": "yarn set version 4.3.0 && yarn install --no-immutable",
+  "installCommand": "yarn set version 4.3.0 && yarn workspaces focus @tonkeeper/web @tonkeeper/uikit @tonkeeper/locales @tonkeeper/core -A",
   "buildCommand": "yarn build:web",
   "outputDirectory": "apps/web/dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
