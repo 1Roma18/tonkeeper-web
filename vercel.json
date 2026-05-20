@@ -1,5 +1,5 @@
 {
-  "installCommand": "corepack enable && corepack prepare yarn@4.3.0 --activate && yarn --version && yarn install",
+  "installCommand": "yarn set version 4.3.0 && yarn install",
   "buildCommand": "yarn build:web",
   "outputDirectory": "apps/web/dist",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
