@@ -2,9 +2,12 @@ import react from '@vitejs/plugin-react';
 import * as path from 'path';
 import { defineConfig } from 'vite';
 import { nodePolyfills } from 'vite-plugin-node-polyfills';
-import { injectCSP, metaTagCspConfig } from "@tonkeeper/core/dist/utils/csp";
+import { injectCSP, metaTagCspConfig } from '@tonkeeper/core/dist/utils/csp';
+
+const base = process.env.VITE_BASE_PATH || '/';
 
 export default defineConfig({
+    base,
     plugins: [
         nodePolyfills({
             globals: {
@@ -22,6 +25,10 @@ export default defineConfig({
         // Vite rejects requests with Host header different from localhost by default.
         allowedHosts: ['wallet.tonkeeper.com', 'wallet.tonkeeper.local']
     },
+    optimizeDeps: {
+        exclude: ['@tonkeeper/core', '@tonkeeper/locales'],
+        include: ['buffer']
+    },
     resolve: {
         alias: {
             react: path.resolve(__dirname, './node_modules/react'),
@@ -32,7 +39,11 @@ export default defineConfig({
             'react-router-dom': path.resolve(__dirname, './node_modules/react-router-dom'),
             'styled-components': path.resolve(__dirname, './node_modules/styled-components'),
             'react-i18next': path.resolve(__dirname, './node_modules/react-i18next'),
-            '@tanstack/react-query': path.resolve(__dirname, './node_modules/@tanstack/react-query')
+            '@tanstack/react-query': path.resolve(__dirname, './node_modules/@tanstack/react-query'),
+            '@tonkeeper/core/dist/utils/csp': path.resolve(
+                __dirname,
+                '../../packages/core/dist/utils/csp.mjs'
+            )
         }
     }
 });

@@ -8,6 +8,7 @@ import { Button } from '../../components/fields/Button';
 import { useAppSdk } from '../../hooks/appSdk';
 import { useTranslation } from '../../hooks/translation';
 import { useAddWalletNotification } from '../../components/modals/AddWalletNotificationControlled';
+import { KoshkarMuiizOrnament } from '../../components/branding/KoshkarMuiizOrnament';
 
 const Block = styled.div<{ fullHeight: boolean }>`
     display: flex;
@@ -46,7 +47,7 @@ export const InitializeContainer: FC<
 };
 
 const Accent = styled.span`
-    color: ${props => props.theme.accentBlue};
+    color: ${props => props.theme.textAccent};
 `;
 
 const Title = styled(H1)`
@@ -66,9 +67,10 @@ const Initialize: FC = () => {
 
     return (
         <CenterContainer>
+            <KoshkarMuiizOrnament variant="splash" />
             <Title>
                 {t('intro_title')}
-                <Accent>Tonkeeper</Accent>
+                <Accent>{t('appName')}</Accent>
             </Title>
             <div>
                 <Description

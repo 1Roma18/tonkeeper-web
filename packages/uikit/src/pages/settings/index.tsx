@@ -8,6 +8,7 @@ import { DevSettings } from './Dev';
 import { FiatCurrency } from './FiatCurrency';
 import { JettonsSettings } from './Jettons';
 import { LedgerIndexesPage } from './LedgerIndexes';
+import { AboutApp } from './AboutApp';
 import { Legal } from './Legal';
 import { Localization } from './Localization';
 import { MAMIndexesPage } from './MamIndexes';
@@ -28,6 +29,7 @@ const SettingsRouter = () => {
     return (
         <Switch>
             <Route path={path + SettingsRoute.localization} component={Localization} />
+            <Route path={path + SettingsRoute.about} component={AboutApp} />
             <Route path={path + SettingsRoute.legal} component={Legal} />
             <Route path={path + SettingsRoute.dev} component={DevSettings} />
             <Route path={path + SettingsRoute.fiat} component={FiatCurrency} />

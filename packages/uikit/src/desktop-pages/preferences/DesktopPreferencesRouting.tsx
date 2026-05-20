@@ -10,6 +10,7 @@ import { SecuritySettings } from '../../pages/settings/Security';
 import { DesktopManageAccountsPage } from '../settings/DesktopManageWalletsSettings';
 import { Navigate } from '../../components/shared/Navigate';
 import { ProSubscriptionSettings } from '../../components/settings/ProSubscriptionSettings';
+import { AboutApp } from '../../pages/settings/AboutApp';
 
 export const DesktopPreferencesRouting = () => {
     const { path } = useRouteMatch();
@@ -18,6 +19,7 @@ export const DesktopPreferencesRouting = () => {
         <Switch>
             <Route path={path + SettingsRoute.account} component={DesktopManageAccountsPage} />
             <Route path={path + SettingsRoute.localization} component={Localization} />
+            <Route path={path + SettingsRoute.about} component={AboutApp} />
             <Route path={path + SettingsRoute.legal} component={Legal} />
             <Route path={path + SettingsRoute.theme} component={UserTheme} />
             <Route path={path + SettingsRoute.dev} component={DevSettings} exact />

@@ -21,7 +21,15 @@ const extension = 'extension';
 const i18n = 'i18n';
 const locales = 'locales';
 
-const defaultLocale = 'en';
+const defaultLocale = 'kk';
+
+/** Only bundle these locales in the app */
+const ALLOWED_SOURCE_LOCALES = new Set([
+    'kk',
+    'en',
+    'ru',
+    'ru-RU'
+]);
 
 interface Message {
     message: string;
@@ -150,6 +158,10 @@ const main = async () => {
     for (let namespace of namespaces) {
         fs.readdirSync(path.join(src, namespace)).forEach(file => {
             const [externalLocale] = file.split('.');
+
+            if (!ALLOWED_SOURCE_LOCALES.has(externalLocale)) {
+                return;
+            }
 
             const locale = localeMap[externalLocale] ?? externalLocale;
             console.log(namespace, locale);

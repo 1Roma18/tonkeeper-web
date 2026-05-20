@@ -20,7 +20,7 @@ import {
 import { ChevronRightIcon } from '../Icon';
 import { useSecurityCheck } from '../../state/password';
 import { isAccountCanManageMultisigs } from '@tonkeeper/core/dist/entries/account';
-import { AddWalletMethod } from '@tonkeeper/core/src/entries/wallet';
+import { AddWalletMethod } from '@tonkeeper/core/dist/entries/wallet';
 
 const AddMethod = styled.button`
     display: flex;

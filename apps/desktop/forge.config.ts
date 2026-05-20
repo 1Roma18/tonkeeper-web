@@ -93,13 +93,13 @@ const squirrelRemoteReleases = githubToken
     : {};
 
 const devAndRpmOptions = {
-    name: 'Tonkeeper',
-    productName: 'Tonkeeper',
-    genericName: 'Tonkeeper',
+    name: 'QazaqWallet',
+    productName: 'Qazaq Wallet Pro',
+    genericName: 'Qazaq Wallet',
     license: 'Apache-2.0',
     maintainer: 'Ton Apps Group',
-    bin: 'Tonkeeper', // bin name
-    description: 'Your desktop wallet on The Open Network',
+    bin: 'QazaqWallet',
+    description: 'Qazaq Wallet — TON wallet for Kazakhstan',
     homepage: 'https://tonkeeper.com',
     icon: path.join(__dirname, 'public', 'icon.png'),
     mimeType: schemes.map(schema => `x-scheme-handler/${schema}`)
@@ -109,11 +109,11 @@ const config: ForgeConfig = {
     packagerConfig: {
         asar: true,
         icon: path.join(__dirname, 'public', 'icon'),
-        name: 'Tonkeeper',
-        executableName: 'Tonkeeper',
+        name: 'QazaqWallet',
+        executableName: 'QazaqWallet',
         protocols: [
             {
-                name: 'Tonkeeper Protocol',
+                name: 'Qazaq Wallet Protocol',
                 schemes: schemes
             }
         ],
@@ -136,9 +136,9 @@ const config: ForgeConfig = {
     makers: [
         new MakerSquirrel(
             {
-                name: 'Tonkeeper',
+                name: 'Qazaq Wallet',
                 authors: 'Ton Apps Group',
-                description: 'Your desktop wallet on The Open Network',
+                description: 'Qazaq Wallet — TON wallet for Kazakhstan',
                 iconUrl: 'https://tonkeeper.com/assets/icon.ico',
                 setupIcon: path.join(process.cwd(), 'public', 'icon.ico'),
                 loadingGif: path.join(process.cwd(), 'public', 'install.gif'),
@@ -158,7 +158,7 @@ const config: ForgeConfig = {
                         x: 200,
                         y: 170,
                         type: 'file',
-                        path: `${process.cwd()}/out/Tonkeeper-darwin-${arch}/Tonkeeper.app`
+                        path: `${process.cwd()}/out/QazaqWallet-darwin-${arch}/QazaqWallet.app`
                     },
                     { x: 400, y: 170, type: 'link', path: '/Applications' }
                 ]

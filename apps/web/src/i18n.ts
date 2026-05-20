@@ -1,22 +1,51 @@
-import resources from '@tonkeeper/locales/dist/i18n/default.json';
+import kkBundle from '@tonkeeper/locales/dist/i18n/default.json';
+import enTranslation from '@tonkeeper/locales/dist/locales/en/translation.json';
+import kkTranslation from '@tonkeeper/locales/dist/locales/kk/translation.json';
+import ruTranslation from '@tonkeeper/locales/dist/locales/ru/translation.json';
 import i18n from 'i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
-import Backend from 'i18next-http-backend';
 import { initReactI18next } from 'react-i18next';
 
-i18n.use(Backend)
-    .use(LanguageDetector)
-    .use(initReactI18next) // passes i18n down to react-i18next
-    .init({
-        resources,
-        debug: false,
-        lng: 'en', // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
-        // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
-        // if you're using a language detector, do not define the lng option
-        fallbackLng: 'en',
-        interpolation: {
-            escapeValue: false // react already safes from xss
+/** Prefer kk when OS / Telegram language is Kazakh */
+export function detectInitialLanguage(): string {
+    const nav = (navigator.language || '').toLowerCase();
+    const tgUser = (
+        window as Window & {
+            Telegram?: { WebApp?: { initDataUnsafe?: { user?: { language_code?: string } } } };
         }
-    });
+    ).Telegram?.WebApp?.initDataUnsafe?.user?.language_code?.toLowerCase();
+
+    if (
+        nav.startsWith('kk') ||
+        nav.startsWith('kz') ||
+        tgUser === 'kk' ||
+        tgUser === 'kz'
+    ) {
+        return 'kk';
+    }
+    if (nav.startsWith('ru') || tgUser === 'ru') {
+        return 'ru';
+    }
+    if (nav.startsWith('en') || tgUser === 'en') {
+        return 'en';
+    }
+    return 'kk';
+}
+
+const resources = {
+    ...kkBundle,
+    kk: { translation: kkTranslation as Record<string, string> },
+    en: { translation: enTranslation as Record<string, string> },
+    ru: { translation: ruTranslation as Record<string, string> }
+};
+
+export const i18nReady = i18n.use(initReactI18next).init({
+    resources,
+    debug: false,
+    lng: detectInitialLanguage(),
+    fallbackLng: 'en',
+    interpolation: {
+        escapeValue: false
+    }
+});
 
 export default i18n;

@@ -74,7 +74,7 @@ const WindowMenu: Electron.MenuItemConstructorOptions = {
 
 const getDarwinMenu = (update: AppUpdate): Electron.MenuItemConstructorOptions => {
     return {
-        label: 'Tonkeeper',
+        label: 'Qazaq Wallet',
         submenu: [
             {
                 label: dist.translation.about_tonkeeper_pro,
@@ -120,7 +120,7 @@ const getDarwinMenu = (update: AppUpdate): Electron.MenuItemConstructorOptions =
 
 const getWinMenu = (update: AppUpdate): Electron.MenuItemConstructorOptions => {
     return {
-        label: 'Tonkeeper',
+        label: 'Qazaq Wallet',
         submenu: [
             {
                 label: dist.translation.about_tonkeeper_pro,

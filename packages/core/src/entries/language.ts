@@ -18,33 +18,20 @@ export enum Language {
     HI = 16,
     AR = 17,
     DE = 18,
-    FA = 19
+    FA = 19,
+    KK = 20
 }
 
-export const defaultLanguage: Language = Language.EN;
+export const defaultLanguage: Language = Language.KK;
 
-export const languages = [
-    Language.EN,
-    Language.RU,
-    Language.IT,
-    Language.ZH_TW,
-    Language.ZH_CN,
-    Language.TR,
-    Language.BG,
-    Language.ES,
-    Language.ID,
-    Language.UK,
-    Language.UZ,
-    Language.BN,
-    Language.FR,
-    Language.PA,
-    Language.PT,
-    Language.VI,
-    Language.HI,
-    Language.AR,
-    Language.DE,
-    Language.FA
-];
+/** Languages exposed in the app UI */
+export const languages = [Language.KK, Language.EN, Language.RU];
+
+export const supportedLanguages = new Set(languages);
+
+export function isSupportedLanguage(lang: Language | undefined): lang is Language {
+    return lang !== undefined && supportedLanguages.has(lang);
+}
 
 export const localizationText = (lang?: Language) => {
     switch (lang) {
@@ -88,6 +75,8 @@ export const localizationText = (lang?: Language) => {
             return 'de';
         case Language.FA:
             return 'fa';
+        case Language.KK:
+            return 'kk';
         default:
             return 'en';
     }
@@ -135,8 +124,10 @@ export const localizationFrom = (lang: string) => {
             return Language.DE;
         case 'fa':
             return Language.FA;
+        case 'kk':
+            return Language.KK;
         default:
-            return Language.EN;
+            return Language.KK;
     }
 };
 

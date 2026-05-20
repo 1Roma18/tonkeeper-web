@@ -1,5 +1,5 @@
 {
-    "name": "tonkeeper-web",
+    "name": "qazaq-wallet",
     "version": "0.0.0",
     "repository": {
         "type": "git",
@@ -21,7 +21,8 @@
         "lint:css:fix": "stylelint \"{apps,packages}/**/src/**/*.{ts,tsx,css}\" --fix",
         "typecheck": "npx turbo typecheck",
         "prepare": "husky",
-        "prepare-release": "node scripts/prepare-release.js"
+        "prepare-release": "node scripts/prepare-release.js",
+        "locales:kk": "node scripts/rebuild-kk-locale.mjs"
     },
     "private": true,
     "devDependencies": {

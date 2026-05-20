@@ -347,7 +347,7 @@ const FeeTable = () => {
             )}
             {(isTronEnabled || hasBatteryTransfers) && (
                 <TableRowTemplate
-                    heading="Tonkeeper Battery"
+                    heading={t('battery.title')}
                     formattedBalance={
                         batteryBalance
                             ? t('battery_charges', {

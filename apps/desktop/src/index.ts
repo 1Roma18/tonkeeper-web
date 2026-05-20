@@ -11,7 +11,7 @@ import {
 } from './electron/protocol';
 import { tonConnectSSE } from './electron/sseEvetns';
 
-app.setName('Tonkeeper Pro');
+app.setName('Qazaq Wallet Pro');
 
 log.initialize({ preload: true });
 log.info('Application start-up');

@@ -61,6 +61,11 @@ export const SettingsSocialList: FC = React.memo(() => {
                 action: () => config.supportLink && sdk.openPage(config.supportLink)
             },
             {
+                name: t('about_app_screen_title'),
+                icon: <LegalDocumentsIcon />,
+                action: () => navigate(relative(SettingsRoute.about))
+            },
+            {
                 name: t('settings_legal_documents'),
                 icon: <LegalDocumentsIcon />,
                 action: () => navigate(relative(SettingsRoute.legal))

@@ -42,6 +42,7 @@ export enum SettingsRoute {
     localization = '/localization',
     notification = '/notification',
     legal = '/legal',
+    about = '/about',
     theme = '/theme',
     dev = '/dev',
     fiat = '/fiat',

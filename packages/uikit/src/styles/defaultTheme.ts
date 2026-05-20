@@ -1,36 +1,49 @@
 import { DefaultTheme } from 'styled-components';
+import {
+    KZ_GOLD,
+    KZ_GOLD_DARK,
+    KZ_GOLD_LIGHT,
+    KZ_GRAPHITE,
+    KZ_GRAPHITE_ATTENTION,
+    KZ_GRAPHITE_ELEVATED,
+    KZ_GRAPHITE_TINT,
+    KZ_TURQUOISE,
+    KZ_TURQUOISE_DISABLED,
+    kzGradientBlueBottom,
+    kzGradientBlueTop
+} from './kzBrand';
 
 export const defaultTheme: DefaultTheme = {
     textPrimary: '#EBEBEB',
     textSecondary: '#8994A3',
     textTertiary: '#556170',
-    textAccent: '#45AEF5',
-    textPrimaryAlternate: '#10161F',
+    textAccent: KZ_TURQUOISE,
+    textPrimaryAlternate: KZ_GRAPHITE,
 
-    backgroundPage: '#10161F',
-    backgroundTransparent: 'rgba(16, 22, 31, 0.92)',
-    backgroundContent: '#1D2633',
-    backgroundContentTint: '#2E3847',
-    backgroundContentAttention: '#424C5C',
+    backgroundPage: KZ_GRAPHITE,
+    backgroundTransparent: 'rgba(18, 19, 26, 0.92)',
+    backgroundContent: KZ_GRAPHITE_ELEVATED,
+    backgroundContentTint: KZ_GRAPHITE_TINT,
+    backgroundContentAttention: KZ_GRAPHITE_ATTENTION,
     backgroundOverlayStrong: 'rgba(0, 0, 0, 0.72)',
     backgroundOverlayLight: 'rgba(0, 0, 0, 0.48)',
     backgroundOverlayExtraLight: 'rgba(0, 0, 0, 0.24)',
-    backgroundHighlighted: 'rgba(79, 90, 112, 0.24)',
+    backgroundHighlighted: 'rgba(229, 169, 59, 0.1)',
 
     iconPrimary: '#EBEBEB',
     iconSecondary: '#8994A3',
     iconTertiary: '#556170',
-    iconPrimaryAlternate: '#10161F',
+    iconPrimaryAlternate: KZ_GRAPHITE,
 
-    buttonPrimaryBackground: '#45AEF5',
-    buttonPrimaryForeground: '#FFFFFF',
-    buttonSecondaryBackground: '#1D2633',
+    buttonPrimaryBackground: KZ_GOLD,
+    buttonPrimaryForeground: KZ_GRAPHITE,
+    buttonSecondaryBackground: KZ_GRAPHITE_ELEVATED,
     buttonSecondaryForeground: '#EBEBEB',
-    buttonTertiaryBackground: '#2E3847',
+    buttonTertiaryBackground: KZ_GRAPHITE_TINT,
     buttonTertiaryForeground: '#EBEBEB',
     buttonWarnBackground: '#F5A73B',
     buttonWarnForeground: '#FFFFFF',
-    buttonPrimaryBackgroundDisabled: '#378AC2',
+    buttonPrimaryBackgroundDisabled: KZ_GOLD_DARK,
     buttonSecondaryBackgroundDisabled: '#171F29',
     buttonTertiaryBackgroundDisabled: '#28303D',
     buttonWarnBackgroundDisabled: '#C2842F',
@@ -40,37 +53,35 @@ export const defaultTheme: DefaultTheme = {
     buttonPrimaryForegroundDisabled: 'rgba(256, 256, 256, 0.48)',
     buttonWarnForegroundDisabled: 'rgba(256, 256, 256, 0.48)',
 
-    buttonPrimaryBackgroundHighlighted: 'rgba(91, 184, 246, 1)',
+    buttonPrimaryBackgroundHighlighted: KZ_GOLD_LIGHT,
     buttonSecondaryBackgroundHighlighted: 'rgba(34, 44, 59, 1)',
     buttonTertiaryBackgroundHighlighted: 'rgba(54, 64, 82, 1)',
     buttonWarnBackgroundHighlighted: '#F5AF4E',
 
-    fieldBackground: '#1D2633',
-    fieldActiveBorder: '#45AEF5',
+    fieldBackground: KZ_GRAPHITE_ELEVATED,
+    fieldActiveBorder: KZ_GOLD,
     fieldErrorBorder: '#FF4766',
     fieldErrorBackground: 'rgba(255, 71, 102, 0.08)',
 
-    accentBlue: '#45AEF5',
-    accentBlueConstant: '#45AEF5',
+    accentBlue: KZ_TURQUOISE,
+    accentBlueConstant: KZ_TURQUOISE,
     accentGreen: '#39CC83',
     accentRed: '#FF4766',
-    accentOrange: '#F5A73B',
+    accentOrange: KZ_GOLD,
     accentPurple: '#7665E5',
 
-    tabBarActiveIcon: '#45AEF5',
+    tabBarActiveIcon: KZ_GOLD,
     tabBarInactiveIcon: '#8994A3',
 
     separatorCommon: 'rgba(79, 90, 112, 0.24)',
-    separatorAlternate: 'rgba(255, 255, 255, 0.04)',
+    separatorAlternate: 'rgba(229, 169, 59, 0.08)',
 
     gradientBackgroundTop:
-        'linear-gradient(180deg, #10161F 0%, rgba(16, 22, 31, 0.991353) 6.67%, rgba(16, 22, 31, 0.96449) 13.33%, rgba(16, 22, 31, 0.91834) 20%, rgba(16, 22, 31, 0.852589) 26.67%, rgba(16, 22, 31, 0.768225) 33.33%, rgba(16, 22, 31, 0.668116) 40%, rgba(16, 22, 31, 0.557309) 46.67%, rgba(16, 22, 31, 0.442691) 53.33%, rgba(16, 22, 31, 0.331884) 60%, rgba(16, 22, 31, 0.231775) 66.67%, rgba(16, 22, 31, 0.147411) 73.33%, rgba(16, 22, 31, 0.0816599) 80%, rgba(16, 22, 31, 0.03551) 86.67%, rgba(16, 22, 31, 0.0086472) 93.33%, rgba(16, 22, 31, 0) 100%)',
+        'linear-gradient(180deg, #12131A 0%, rgba(18, 19, 26, 0.991353) 6.67%, rgba(18, 19, 26, 0.96449) 13.33%, rgba(18, 19, 26, 0.91834) 20%, rgba(18, 19, 26, 0.852589) 26.67%, rgba(18, 19, 26, 0.768225) 33.33%, rgba(18, 19, 26, 0.668116) 40%, rgba(18, 19, 26, 0.557309) 46.67%, rgba(18, 19, 26, 0.442691) 53.33%, rgba(18, 19, 26, 0.331884) 60%, rgba(18, 19, 26, 0.231775) 66.67%, rgba(18, 19, 26, 0.147411) 73.33%, rgba(18, 19, 26, 0.0816599) 80%, rgba(18, 19, 26, 0.03551) 86.67%, rgba(18, 19, 26, 0.0086472) 93.33%, rgba(18, 19, 26, 0) 100%)',
     gradientBackgroundBottom:
-        'linear-gradient(360deg, #10161F 0%, rgba(16, 22, 31, 0.991353) 6.67%, rgba(16, 22, 31, 0.96449) 13.33%, rgba(16, 22, 31, 0.91834) 20%, rgba(16, 22, 31, 0.852589) 26.67%, rgba(16, 22, 31, 0.768225) 33.33%, rgba(16, 22, 31, 0.668116) 40%, rgba(16, 22, 31, 0.557309) 46.67%, rgba(16, 22, 31, 0.442691) 53.33%, rgba(16, 22, 31, 0.331884) 60%, rgba(16, 22, 31, 0.231775) 66.67%, rgba(16, 22, 31, 0.147411) 73.33%, rgba(16, 22, 31, 0.0816599) 80%, rgba(16, 22, 31, 0.03551) 86.67%, rgba(16, 22, 31, 0.0086472) 93.33%, rgba(16, 22, 31, 0) 100%)',
-    gradientBlueTop:
-        'linear-gradient(180deg, #45AEF5 0%, rgba(69, 174, 245, 0.991353) 6.67%, rgba(69, 174, 245, 0.96449) 13.33%, rgba(69, 174, 245, 0.91834) 20%, rgba(69, 174, 245, 0.852589) 26.67%, rgba(69, 174, 245, 0.768225) 33.33%, rgba(69, 174, 245, 0.668116) 40%, rgba(69, 174, 245, 0.557309) 46.67%, rgba(69, 174, 245, 0.442691) 53.33%, rgba(69, 174, 245, 0.331884) 60%, rgba(69, 174, 245, 0.231775) 66.67%, rgba(69, 174, 245, 0.147411) 73.33%, rgba(69, 174, 245, 0.0816599) 80%, rgba(69, 174, 245, 0.03551) 86.67%, rgba(69, 174, 245, 0.0086472) 93.33%, rgba(69, 174, 245, 0) 100%)',
-    gradientBlueBottom:
-        'linear-gradient(0deg, #45AEF5 0%, rgba(69, 174, 245, 0.991353) 6.67%, rgba(69, 174, 245, 0.96449) 13.33%, rgba(69, 174, 245, 0.91834) 20%, rgba(69, 174, 245, 0.852589) 26.67%, rgba(69, 174, 245, 0.768225) 33.33%, rgba(69, 174, 245, 0.668116) 40%, rgba(69, 174, 245, 0.557309) 46.67%, rgba(69, 174, 245, 0.442691) 53.33%, rgba(69, 174, 245, 0.331884) 60%, rgba(69, 174, 245, 0.231775) 66.67%, rgba(69, 174, 245, 0.147411) 73.33%, rgba(69, 174, 245, 0.0816599) 80%, rgba(69, 174, 245, 0.03551) 86.67%, rgba(69, 174, 245, 0.0086472) 93.33%, rgba(69, 174, 245, 0) 100%)',
+        'linear-gradient(360deg, #12131A 0%, rgba(18, 19, 26, 0.991353) 6.67%, rgba(18, 19, 26, 0.96449) 13.33%, rgba(18, 19, 26, 0.91834) 20%, rgba(18, 19, 26, 0.852589) 26.67%, rgba(18, 19, 26, 0.768225) 33.33%, rgba(18, 19, 26, 0.668116) 40%, rgba(18, 19, 26, 0.557309) 46.67%, rgba(18, 19, 26, 0.442691) 53.33%, rgba(18, 19, 26, 0.331884) 60%, rgba(18, 19, 26, 0.231775) 66.67%, rgba(18, 19, 26, 0.147411) 73.33%, rgba(18, 19, 26, 0.0816599) 80%, rgba(18, 19, 26, 0.03551) 86.67%, rgba(18, 19, 26, 0.0086472) 93.33%, rgba(18, 19, 26, 0) 100%)',
+    gradientBlueTop: kzGradientBlueTop,
+    gradientBlueBottom: kzGradientBlueBottom,
     gradientGreen:
         'linear-gradient(180deg, #39CC83 0%, rgba(57, 204, 131, 0.991353) 6.67%, rgba(57, 204, 131, 0.96449) 13.33%, rgba(57, 204, 131, 0.91834) 20%, rgba(57, 204, 131, 0.852589) 26.67%, rgba(57, 204, 131, 0.768225) 33.33%, rgba(57, 204, 131, 0.668116) 40%, rgba(57, 204, 131, 0.557309) 46.67%, rgba(57, 204, 131, 0.442691) 53.33%, rgba(57, 204, 131, 0.331884) 60%, rgba(57, 204, 131, 0.231775) 66.67%, rgba(57, 204, 131, 0.147411) 73.33%, rgba(57, 204, 131, 0.0816599) 80%, rgba(57, 204, 131, 0.03551) 86.67%, rgba(57, 204, 131, 0.0086472) 93.33%, rgba(57, 204, 131, 0) 100%)',
     gradientRed:
@@ -78,7 +89,7 @@ export const defaultTheme: DefaultTheme = {
 
     constantBlack: '#000000',
     constantWhite: '#FFFFFF',
-    blue: '#0077FF',
+    blue: KZ_TURQUOISE_DISABLED,
     red: '#FF3B30',
 
     corner3xSmall: '4px',

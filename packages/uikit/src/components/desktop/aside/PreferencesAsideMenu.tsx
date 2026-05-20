@@ -275,6 +275,14 @@ export const PreferencesAsideMenu: FC<{ className?: string }> = ({ className }) 
                     <EnvelopeIcon />
                     <Label2>{t('settings_contact_support')}</Label2>
                 </AsideMenuItemStyled>
+                <NavLink to={AppRoute.settings + SettingsRoute.about}>
+                    {({ isActive }) => (
+                        <AsideMenuItemStyled isSelected={isActive}>
+                            <DocIcon />
+                            <Label2>{t('about_app_screen_title')}</Label2>
+                        </AsideMenuItemStyled>
+                    )}
+                </NavLink>
                 <NavLink to={AppRoute.settings + SettingsRoute.legal}>
                     {({ isActive }) => (
                         <AsideMenuItemStyled isSelected={isActive}>
@@ -324,13 +332,15 @@ export const PreferencesAsideMenu: FC<{ className?: string }> = ({ className }) 
                     onClick={() => {
                         onFiveTaps();
                         sdk.copyToClipboard(
-                            `Tonkeeper Pro for ${sdk.targetEnv} v${sdk.version}`,
+                            `${t('appName')} Pro for ${sdk.targetEnv} v${sdk.version}`,
                             t('copied')
                         );
                     }}
                 >
                     <TonkeeperProOutlineIcon />
-                    <Body2>Tonkeeper Pro {sdk.version}</Body2>
+                    <Body2>
+                        {t('appName')} Pro {sdk.version}
+                    </Body2>
                 </AsideMenuItemVersion>
             </AsideMenuItemsBlock>
         </PreferencesAsideContainer>

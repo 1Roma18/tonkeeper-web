@@ -4,7 +4,7 @@ import { KeyboardResize } from '@capacitor/keyboard';
 
 const config: CapacitorConfig = {
     appId: 'com.tonapps.tonkeeperpro',
-    appName: 'Tonkeeper Pro',
+    appName: 'Qazaq Wallet Pro',
     webDir: 'dist',
     plugins: {
         SplashScreen: {

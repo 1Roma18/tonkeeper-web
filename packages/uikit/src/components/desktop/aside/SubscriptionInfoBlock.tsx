@@ -203,7 +203,7 @@ export const SubscriptionInfoBlock: FC<{ className?: string }> = ({ className })
                 trigger="hover"
             >
                 <ProButtonPanel type="button" onClick={handleNavigateToSettingsPro}>
-                    {'Tonkeeper Pro'}
+                    {`${t('appName')} Pro`}
                 </ProButtonPanel>
             </DropDown>
         );

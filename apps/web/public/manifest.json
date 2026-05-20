@@ -1,6 +1,6 @@
 {
-  "short_name": "Tonkeeper",
-  "name": "Tonkeeper Web",
+  "short_name": "Qazaq",
+  "name": "Qazaq Wallet",
   "icons": [
     {
       "src": "favicon.png",
@@ -10,6 +10,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#12131A",
+  "background_color": "#12131A"
 }

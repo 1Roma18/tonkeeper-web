@@ -99,7 +99,7 @@ const NftsSection: FC<{
                             )}
                             <NftImageStyled src={collection.image} />
                             <NftTextContainer>
-                                <Label1>{collection.name || 'Unknown'}</Label1>
+                                <Label1>{collection.name || t('transactions.unknown')}</Label1>
                                 <Body2>
                                     {collection.type === 'collection'
                                         ? collection.nfts.length > 1

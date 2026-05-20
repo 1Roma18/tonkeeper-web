@@ -45,6 +45,7 @@ import { useIsActiveAccountMultisig } from '@tonkeeper/uikit/dist/state/multisig
 import { BrowserRouter } from 'react-router-dom';
 import { localesList } from '@tonkeeper/locales/localesList';
 import { CryptoStrategyInstaller } from '@tonkeeper/uikit/dist/components/pro/CryptoStrategyInstaller';
+import { QazaqThemeShell } from './theme/QazaqThemeShell';
 
 const QrScanner = React.lazy(() => import('@tonkeeper/uikit/dist/components/QrScanner'));
 const DesktopView = React.lazy(() => import('./AppDesktop'));
@@ -113,6 +114,7 @@ const ThemeAndContent = () => {
             proDisplayType="desktop"
             displayType={isMobile ? 'compact' : 'full-width'}
         >
+            <QazaqThemeShell>
             <DarkThemeContext.Provider value={!data?.valid}>
                 <GlobalStyle />
                 <HeaderGlobalStyle />
@@ -122,6 +124,7 @@ const ThemeAndContent = () => {
                 <Loader />
                 <UnlockNotification sdk={sdk} />
             </DarkThemeContext.Provider>
+            </QazaqThemeShell>
         </UserThemeProvider>
     );
 };
@@ -140,7 +143,11 @@ const Loader: FC = () => {
     }, []);
 
     const lock = useLock(sdk);
-    const { i18n } = useTranslation();
+    const { i18n, t } = useTranslation();
+
+    useEffect(() => {
+        document.title = t('appTitle');
+    }, [t, i18n.language]);
 
     const tonendpoint = useTonendpoint({
         build: sdk.version,

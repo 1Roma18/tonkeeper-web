@@ -44,14 +44,14 @@ export const tonConnectTonkeeperAppName = 'tonkeeper';
 export const tonConnectTonkeeperProAppName = 'tonkeeper-pro';
 
 export const tonConnectTonkeeperWalletInfo: InjectedWalletInfo = {
-    name: 'Tonkeeper',
+    name: 'Qazaq Wallet',
     image: 'https://tonkeeper.com/assets/tonconnect-icon.png',
     tondns: 'tonkeeper.ton',
     about_url: 'https://tonkeeper.com'
 };
 
 export const tonConnectTonkeeperProWalletInfo: InjectedWalletInfo = {
-    name: 'Tonkeeper Pro',
+    name: 'Qazaq Wallet Pro',
     image: 'https://tonkeeper.com/assets/tonconnect-icon-pro.png',
     tondns: 'tonkeeper.ton',
     about_url: 'https://tonkeeper.com/pro'

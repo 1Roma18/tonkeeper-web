@@ -1,0 +1,1709 @@
+{
+  "about_app_title": "Qazaq Wallet",
+  "about_app_screen_title": "Қолданба туралы",
+  "about_app_description_kk": "Qazaq Wallet — Қазақстанға арналған тәуелсіз криптоәмиян. Tonkeeper ашық бастапқы коды негізінде жасалған (Powered by Tonkeeper open-source technology).",
+  "about_app_description_ru": "Qazaq Wallet — независимый криптокошелёк для Казахстана. Создан на базе открытого исходного кода Tonkeeper (Powered by Tonkeeper open-source technology).",
+  "activityActionModal": {
+    "withdrawal_request": "Шығару сұрауы"
+  },
+  "activity": {
+    "empty_transaction_caption": "Алғашқы транзакцияңызды орындаңыз",
+    "empty_transaction_title": "Транзакциялар тарихы осында көрсетіледі",
+    "failed_transaction": "Қате кетті",
+    "screen_title": "Транзакциялар тарихы"
+  },
+  "add_edit_favorite": {
+    "address_label": "Мекенжай",
+    "add_title": "Жаңа таңдаулы",
+    "delete": "Жою",
+    "edit_title": "Өңдеу",
+    "name_placeholder": "Атауы",
+    "save": "Сақтаңыз"
+  },
+  "address_copied": "Мекенжай көшірілді",
+  "add_wallet": "Әмиян қосу",
+  "add_wallet_modal": {
+    "testnet": {
+      "subtitle": "24 сөзден тұратын құпия кілтпен әмиян қосу",
+      "title": "Testnet тіркелгісі"
+    },
+    "watch_only": {
+      "subtitle": "Құпия сид-фразасыз әмиян белсенділігін бақылау",
+      "title": "Қарау әмияны"
+    }
+  },
+  "add_watch_only": {
+    "title": "Қарау әмияны"
+  },
+  "approval": {
+    "accepted": "Көрінетін",
+    "declined": "Жасырын",
+    "details_token": "Токен туралы",
+    "id_collection": "Жинақ ID",
+    "id_token": "Токен ID",
+    "name": "Аты",
+    "not_spam": "Бұл спам емес",
+    "spam": "Спам",
+    "unverified_token": "Расталмаған токен"
+  },
+  "balances_setup_wallet": "Әмиянды баптау",
+  "battery": {
+    "other_ways": {
+      "by_crypto": {
+        "title": "{symbol} арқылы зарядтау"
+      },
+      "gift": {
+        "subtitle": "Достармен бөлісіңіз",
+        "title": "Сыйлық батарея"
+      }
+    },
+    "packages": {
+      "disclaimer": "Бір заряд орташа транзакция комиссиясын жабады. Кейбір транзакциялар қымбатырақ болуы мүмкін."
+    },
+    "please_wait": "Батарея бірнеше минутта зарядталады",
+    "promocode": {
+      "title": "Промокод"
+    },
+    "recharge_by_crypto": {
+      "other": {
+        "subtitle": "Қолмен енгізу",
+        "title": "Басқа сома"
+      },
+      "title": "Зарядтау"
+    },
+    "title": "Qazaq Wallet батареясы",
+    "transactions": {
+      "description": "Таңдалған транзакциялар Qazaq Wallet батареясымен төленеді.",
+      "settings": "Батарея баптаулары",
+      "title": "Транзакциялар",
+      "types": {
+        "nft": "NFT жіберу"
+      },
+      "type": {
+        "swap": "айырбастау",
+        "transfer": "аударым"
+      }
+    }
+  },
+  "biometry": {
+    "default": "Биометрия",
+    "ios": {
+      "fingerprint": "Touch ID"
+    }
+  },
+  "browser": {
+    "actions": {
+      "copy_link": "Сілтемені көшіру",
+      "refresh": "Жаңарту",
+      "share": "Бөлісу"
+    },
+    "apps_all": "Барлығы",
+    "connected": "Қосылған",
+    "title": "Браузер"
+  },
+  "cancel": "Бас тарту",
+  "check_words_caption": "Құпия сид-фразаны дұрыс жазғаныңызды тексеру үшін %{wordNum1}, %{wordNum2} және %{wordNum3} сөздерін енгізіңіз.",
+  "check_words_success": "Құттықтаймыз! Әмияныңыз дайын",
+  "check_words_title": "Тексерейік",
+  "choose_wallets": {
+    "subtitle": "Қосқыңыз келетін әмияндарды таңдаңыз.",
+    "title": "Әмияндарды таңдаңыз"
+  },
+  "confirm": "Растау",
+  "confirm_sending_fee": "Комиссия",
+  "confirm_sending_submit": "Растау және жіберу",
+  "confirm_sending_title": "Аударымды растау",
+  "confirmSendModal": {
+    "wallet": "Әмиян:"
+  },
+  "continue": "Жалғастыру",
+  "copied": "Көшірілді",
+  "create_pin_current_title": "Ағымдағы PIN-кодты енгізіңіз",
+  "create_pin_new_title": "Жаңа PIN-код орнатыңыз",
+  "create_pin_repeat_title": "PIN-кодты қайта енгізіңіз",
+  "create_wallet_caption": "Құпия сид-фразаны міндетті түрде жазыңыз. Құрылғыңызды жоғалтсаңыз, әмиянға қайта кірудің жалғыз жолы — осы фраза. Фразаны поштаға жіберіп, скриншот жасамаңыз. Құрылғыда сақтамау ең қауіпсіз.",
+  "create_wallet_generated": "Әмиян дайын!",
+  "create_wallet_generating": "Әмиян құрылуда...",
+  "create_wallet_title": "Қалам мен қағаз\nалыңыз",
+  "customize": "Баптау",
+  "customize_modal": {
+    "subtitle": "Әмиян аты мен белгіше құрылғыңызда сақталады.",
+    "title": "Әмияныңызды баптаңыз"
+  },
+  "dns_address_linked": "Мекенжай байланды",
+  "dns_address_unlinked": "Мекенжай ажыратылды",
+  "dns_current_address": "Ағымдағы мекенжайыңыз",
+  "dns_expiration_date": "Мерзімі аяқталады",
+  "dns_renew_toast_success": "Домен ұзартылды",
+  "dns_renew_until_btn": "{untilDate} дейін ұзарту",
+  "exchange_method_dont_show_again": "Қайта көрсетпеу",
+  "exchange_method_open_warning": "Qazaq Wallet басқармайтын сыртқы қолданбаны ашасыз.",
+  "exchange_modal": {
+    "other_ways_to_buy": "Сатып алудың басқа тәсілдері"
+  },
+  "exchange_other_ways": "Сатып алу және сатудың басқа тәсілдері",
+  "exchange_title": "TON сатып алу",
+  "import_add_wallet": "Әмиян қосу",
+  "import_add_wallet_description": "Жаңа әмиян ашыңыз немесе бар әмиянды кіргізіңіз.",
+  "import_existing_wallet": "Бар әмиянды кіргізу",
+  "import_existing_wallet_description": "24 сөзден тұратын құпия сид-фразамен кіргізу",
+  "import_new_wallet": "Жаңа әмиян ашу",
+  "import_new_wallet_description": "Жаңа әмиян ашыңыз",
+  "import_signer": "Signer қосу",
+  "import_signer_description": "Полностью офлайн, изолировано (air-gapped), все функции TON",
+  "import_wallet_caption": "Әмиянға қайта кіру үшін әмиян жасаған кездегі 24 құпия сөзді енгізіңіз.",
+  "import_wallet_title": "Құпия сид-фразаны\nенгізіңіз",
+  "import_wallet_wrong_words_err": "Фраза дұрыс емес",
+  "info_about_inactive_back": "Артқа",
+  "intro_continue_btn": "Бастау",
+  "intro_item1_caption": "TON архитектурасының арқасында транзакциялар секундтар ішінде орындалады.",
+  "intro_item1_title": "Жоғары жылдамдық",
+  "intro_item2_caption": "Qazaq Wallet криптографиялық кілттерді құрылғыда сақтайды. Транзакциялар орталықтандырылмаған блокчейнде өңделеді.",
+  "intro_item2_title": "Сенімді қорғаныс",
+  "intro_title": "Қош келдіңіз,\n",
+  "jetton_id": "Токен ID: {jettonAddress}",
+  "jettons_list_title": "Токендер",
+  "later": "Кейінірек",
+  "ledger": {
+    "operation_not_supported": "Бұл операция Ledger әмияндары үшін қолжетімсіз. Басқа әмиянды таңдап, қайталаңыз."
+  },
+  "legal_font_license": "Шрифт Montserrat",
+  "legal_header_title": "Құжаттар",
+  "legal_licenses_title": "Лицензиялар",
+  "legal_privacy": "Құпиялылық саясаты",
+  "legal_terms": "Пайдалану ережелері",
+  "loading": "Жүктелуде",
+  "migration": {
+    "with_passcode": "Құпиясөзді енгізіңіз"
+  },
+  "nft_about_collection": "Толығырақ о коллекции",
+  "nft_actions": {
+    "hide_and_report": "Жасыру и пожаловаться",
+    "hide": {
+      "nft": "Жасыру NFT"
+    },
+    "view_on_explorer": "Ашу в Tonviewer"
+  },
+  "nft_collection": "Коллекция",
+  "nft_contract_address": "Адрес контракта",
+  "nft_deploy_collection_title": "Создать NFT коллекцию",
+  "nft_details": "Детали",
+  "nft_link_domain_button": "Привязать домен",
+  "nft_link_username_button": "Привязать имя",
+  "nft_more": "Раскрыть",
+  "nft_on_sale": "На продаже",
+  "nft_on_sale_text": "NFT сейчас выставлен на продажу на маркете. Чтобы передать, необходимо сначала снять его с продажи.",
+  "nft_open_in_marketplace": "Посмотреть на NFT Маркете",
+  "nft_owner_address": "Владелец",
+  "nft_single_nft": "Жеке NFT",
+  "nft_transfer_nft": "Жіберу NFT",
+  "nft_transfer": {
+    "title": "Передача NFT"
+  },
+  "nft_transfer_title": "Жіберу NFT",
+  "nft_unlink_domain_button": "Связан с '{{'address'}}'",
+  "nft_view_in_explorer": "Толығырақ",
+  "notifications": {
+    "alert": {
+      "cancel": "Бас тарту"
+    }
+  },
+  "pairSigner": {
+    "open_signer": "Ашу на этом устройстве"
+  },
+  "paste": "Қою",
+  "purchases": {
+    "screen_title": "Покупки"
+  },
+  "receiveModal": {
+    "copy": "Көшіру"
+  },
+  "recovery_phrase": {
+    "copy_button": "Көшіру"
+  },
+  "reminder_notifications_caption": "TON, токендер мен NFT түскенде хабарландыру алыңыз.",
+  "reminder_notifications_enable_button": "Хабарландыруды қосу",
+  "reminder_notifications_later_button": "Кейінірек",
+  "reminder_notifications_title": "Лезде хабарландыру алыңыз",
+  "scan_qr_title": "QR-кодты сканерлеңіз",
+  "secret_words_caption": "Төмендегі 24 сөзді ретімен жазыңыз және қауіпсіз жерде сақтаңыз.",
+  "secret_words_title": "Құпия сид-фраза (24 сөз)",
+  "security_change_passcode": "PIN-кодты өзгерту",
+  "select_wallet_for_authorization": "Авторизация үшін әмиянды таңдаңыз",
+  "send_fee_estimation_error": "Комиссияны есептеу мүмкін болмады",
+  "send_publish_tx_error": "Транзакция жіберілмеді",
+  "send_screen_steps": {
+    "address": {
+      "delete_alert_text": "«{name}» таңдаулыдан жоюға сенімдісіз бе?",
+      "suggest_actions": {
+        "add": "Таңдаулыға қосу",
+        "delete": "Жою",
+        "hide": "Жасыру"
+      },
+      "suggests_label": "Таңдаулы және соңғы"
+    },
+    "amount": {
+      "insufficient_balance": "Қаражат жеткіліксіз",
+      "max": "МАКС",
+      "remaining": "Қолжетімді: {amount}"
+    },
+    "comfirm": {
+      "comment_required_text": "Жіберу кезінде биржадан алған memo немесе тегті міндетті түрде көрсетіңіз. Онсыз қаражат түспейді немесе жоғалуы мүмкін.",
+      "title": "Әрекетті растау",
+      "wallet": "Әмиян"
+    },
+    "done": {
+      "done_label": "Дайын",
+      "to": "Алушы: {name}"
+    }
+  },
+  "send_sending_wrong_time_description": "Құрылғы баптауларында уақыт пен күнді автоматты түрде қосыңыз, содан кейін қайталаңыз.",
+  "settings_backup_seed": "Қалпына келтіру фразасын сақтау",
+  "settings_contact_support": "Қолдауға жазу",
+  "settings_delete_account": "Тіркелгіні жою",
+  "settings_jettons_list": "Токендер",
+  "settings_legal_documents": "Құқықтық құжаттар",
+  "settings_network_alert_title": "Желіні таңдаңыз",
+  "settings_news": "Qazaq Wallet жаңалықтары",
+  "settings_notifications": "Хабарландырулар",
+  "settings_primary_currency": "Валюта",
+  "settings_rate": "Qazaq Wallet бағалау",
+  "settings_recovery_phrase": "Құпия сид-фраза",
+  "settings_reset": "Шығу",
+  "settings_reset_alert_title": "Әмияннан шығасыз ба?",
+  "settings_reset_alert_title_all": "Барлық әмияндардан шығасыз ба?",
+  "settings_search_engine": "Іздеу",
+  "settings_security": "Қауіпсіздік",
+  "settings_support": "Қолдау",
+  "settings_title": "Баптаулар",
+  "settings_version": "Нұсқа",
+  "settings_wallet_version": "Ағымдағы мекенжай",
+  "signer_scan_result": "Сканировать подписанную транзакцию",
+  "signer_scan_tx_description": "Пожалуйста, откройте Signer и отсканируйте QR-код с транзакцией",
+  "spam_action": "Спам",
+  "staking_action_stake": "Внести",
+  "staking_action_unstake": "Вывести",
+  "staking_available_label": "Доступно",
+  "staking_balance_label": "Баланс",
+  "staking": {
+    "deposit": "Депозит",
+    "details": {
+      "pool_address": {
+        "label": "Адрес пула"
+      }
+    },
+    "withdraw": "Вывести"
+  },
+  "staking_earnings_section_title": "Жылдық күтілетін табыс",
+  "staking_enter_amount": "Соманы енгізіңіз",
+  "staking_insufficient_balance": "Қаражат жеткіліксіз",
+  "staking_insufficient_recommended_fee_reserve": "Қаражат жеткіліксіз: әмиян балансында резервке 1 TON және комиссияға 0.05 TON болуы керек.",
+  "staking_max": "МАКС",
+  "staking_min_deposit_label": "Минимальный депозит",
+  "staking_next_cycle_desc_liquid": "Мгновенный вывод доступен",
+  "staking_next_cycle_message": "Следующий цикл через {value}",
+  "staking_pool_detail": "APY ≈ {apy}% · Мин. депозит {minDeposit} TON",
+  "staking_pool_liquid_desc": "Tonstakers пулына TON салған кезде, пулдағы үлесіңізді білдіретін tsTON токенін аласыз. Пулда пайда жинақталған сайын tsTON көбірек TON мөлшерін көрсетеді.",
+  "staking_pools_apy": "APY ≈ {apy}%",
+  "staking_pool_withdraw_date": "{amount} TON будут выведены {date}",
+  "staking_portfolio_pending_withdraw": "{amount} TON будут выведены после окончания цикла",
+  "staking_portfolio_pending_withdraw_countdown": "{amount} TON будут выведены через {value}",
+  "staking_ready_withdraw": "{amount} TON готовы к выводу",
+  "staking_rewards_after_stake": "Салғаннан кейін",
+  "staking_rewards_current": "Текущий",
+  "staking_rewards_value": "≈ {value} TON",
+  "staking_staked": "Стейкинг",
+  "staking_title": "Стейкинг",
+  "staking_top_up": "Внести",
+  "staking_unstake_title": "Вывести",
+  "staking_confirm_modal_provider": "Провайдер",
+  "staking_confirm_modal_amount": "Сома",
+  "staking_confirm_modal_apy": "APY",
+  "staking_confirm_modal_wallet": "Әмиян",
+  "staking_unstake_cycle_info": "Запрос будет обработан после окончания цикла валидации через {value}",
+  "staking_tonstakers_notice": "Стейкинг үшінші тарап смарт-контракттарына негізделген. Qazaq Wallet тұрақтылық пен нәтижеге жауап бермейді.",
+  "staking_claim": "Алу",
+  "staking_details_pool_address_label": "Адрес пула",
+  "staking_pending_deposit": "{amount} TON ожидают зачисления",
+  "staking_pools_min_deposit": "Мин. депозит {minDeposit} TON",
+  "staking_tf_full_withdrawal_only": "Доступен только полный вывод",
+  "start_screen": {
+    "create_wallet_button": "Жаңа әмиян жасау",
+    "import_wallet_button": "Бар әмиянды қосу",
+    "caption": "Жаңа әмиян жасаңыз немесе бар әмиянды қосыңыз"
+  },
+  "success": "Сәтті аяқталды!",
+  "suspicious": {
+    "buttons": {
+      "not_spam": "Бұл спам емес",
+      "report": "Пожаловаться"
+    },
+    "label": {
+      "full": "Непроверенный NFT",
+      "short": "Непроверенный"
+    },
+    "status_update": {
+      "hidden": {
+        "collection": "Коллекция скрыта",
+        "nft": "Токен скрыт"
+      },
+      "spam": {
+        "collection": "Коллекция помечена как спам",
+        "nft": "NFT помечен как спам"
+      }
+    }
+  },
+  "suspiciousNFTDetails": {
+    "buttons": {
+      "not_spam": "Бұл спам емес",
+      "report": "Пожаловаться на спам"
+    },
+    "paragraphs": {
+      "p1": "Используется для спама. Применяется для отправки нерелевантных сообщений в больших масштабах.",
+      "p2": "Используется в мошенничестве. Название NFT, информация или изображение может вводить пользователей в заблуждение.",
+      "p3": "Мы пока мало знаем об авторе и истории этого NFT."
+    },
+    "subtitle": "NFT может быть небезопасным по одной из следующих причин.",
+    "title": "Непроверенный NFT"
+  },
+  "swap_confirm_not_enough_ton_for_fee": "Желілік комиссиясы үшін TON жеткіліксіз ({required})",
+  "swap_exchange_in": "Айырбастау в",
+  "swap_expired_refresh": "Своп истёк. Обновите котировку",
+  "swap_price_impact_description": "Разница между рыночной ценой и расчётной ценой из-за размера сделки.",
+  "swap_price_impact_ignore_variant": "Игнорировать",
+  "swap_slippage_tolerance": "Допустимое проскальзывание",
+  "swap_slippage_tolerance_description": "Величина неблагоприятного изменения цены, при которой сделка будет отменена.",
+  "swap_slippage_tolerance_placeholder_custom": "Свой",
+  "swap_title": "Айырбастау",
+  "today": "Бүгін",
+  "tokenDetails": {
+    "tonviewer_button": "Ашу в Tonviewer"
+  },
+  "tonkeeper_pro": "Qazaq Wallet Pro",
+  "tonkeeper_pro_description": "Жазылым Qazaq Wallet Pro включает в себя расширенную функцию әмияны, предлагающую набор инструментов для управления крипто активами.",
+  "ton_login_caption": "{name} запрашивает доступ к адресу вашего әмияны",
+  "ton_login_connect_button": "Қосу әмиян",
+  "ton_login_notice": "Обязательно проверьте адрес сервиса перед подключением әмияны.",
+  "ton_login_success": "Дайын",
+  "transaction_bid_dns": "Имя",
+  "transaction_cancelled": "Транзакция отменена",
+  "transactionDetails": {
+    "comment": "Түсініктеме",
+    "operation": "Операция",
+    "recipient": "Алушы"
+  },
+  "transaction_fee": "Комиссия",
+  "transaction_hash": "Транзакция",
+  "transaction_merchant": "Продавец",
+  "transaction_receive_date": "Получено {date}",
+  "transaction_recipient": "Алушы",
+  "transaction_recipient_address": "Адрес получателя",
+  "transactions": {
+    "burned": "Сожжено",
+    "failed": "Сәтсіз",
+    "nft_purchase": "Покупка NFT",
+    "smartcontract_exec": "Вызов контракта",
+    "spam": "Спам",
+    "swap": "Айырбастау",
+    "unknown": "Белгісіз",
+    "unknown_description": "Бір нәрсе болды,\nбірақ біз танымадық"
+  },
+  "transaction_sender": "Жіберуші",
+  "transaction_sender_address": "Адрес отправителя",
+  "transaction_sent_date": "Отправлено {date}",
+  "transaction_type_bid": "Ставка",
+  "transaction_type_contract_deploy": "Создание контракта",
+  "transaction_type_pending": "В ожидании",
+  "transaction_type_receive": "Получено",
+  "transaction_type_sent": "Отправлено",
+  "transaction_type_subscription": "Жазылым",
+  "transaction_type_unsubscription": "Бас тарту подписки",
+  "transaction_type_wallet_initialized": "Әмиян инициализирован",
+  "trc20_transfer_unavailable": "Отправка TRC20 временно недоступна",
+  "txActions": {
+    "amount": "Сома",
+    "fee": "Комиссия",
+    "refund": "Возврат",
+    "signRaw": {
+      "comment": "Түсініктеме",
+      "recipient": "Алушы",
+      "title": "Растау транзакцию",
+      "types": {
+        "jettonTransfer": "Отправка токена",
+        "nftItemTransfer": "Передача NFT",
+        "tonTransfer": "Отправка TON",
+        "unknownTransaction": "Белгісіз транзакция"
+      }
+    }
+  },
+  "unused": {
+    "about_risk_modal": {
+      "description": "Общая стоимость токенов, которые будут отправлены с вашего әмияны. Возвраты не учитываются в общей стоимости.",
+      "description_with_nft": "Общая стоимость токенов, за исключением стоимости NFT, которые будут отправлены с вашего әмияны. Возвраты не учитываются в общей стоимости.",
+      "ok_button": "Понятно"
+    },
+    "about_ton": "TON — это полностью децентрализованный блокчейн первого уровня, разработанный Telegram для поддержки миллиарда пользователей. Он гарантирует мгновенные транзакции, низкие комиссии, удобные приложения и безопасность для окружающей среды.",
+    "access_confirmation_logout": "Шығу",
+    "access_confirmation_reset": "Сброс",
+    "access_confirmation_title": "Введите пин-код",
+    "access_confirmation_update_biometry": "Введите пин-код, чтобы использовать биометрические данные для входа",
+    "access_denied": "Доступ запрещён",
+    "account_deleted": "Аккаунт удалён",
+    "activityActionModal": {
+      "bid": "Ставка",
+      "burned": "Сожжено",
+      "call_contract": "Вызов контракта",
+      "deposit": "Депозит",
+      "purchase": "Покупка",
+      "received": "Получено",
+      "sent": "Отправлено",
+      "swapped": "Айырбастау",
+      "time_on": "{time}",
+      "withdraw": "Вывод"
+    },
+    "activity": {
+      "buy_toncoin_btn": "Toncoin сатып алу",
+      "receive_btn": "Алу",
+      "received": "Получено",
+      "sent": "Жіберу"
+    },
+    "add_other_coins": "Қосу валюты",
+    "address_update": {
+      "first_option": "Наиболее вероятно, что әмиян получателя уже использовался и вы не заметите никакой разницы.",
+      "learn_more": "Толығырақ",
+      "new_style": "Новый адрес",
+      "notification_desc_did_change": "Адрес вашего әмияны изменил свой формат на UQ. Старый адрес также продолжает работать.",
+      "notification_desc_will_change": "Пятого октября адрес вашего әмияны изменит свой формат на UQ, который ему лучше подходит. Старый адрес также продолжит работать. От вас не потребуется никаких действий.",
+      "old_style": "Старый адрес",
+      "post_dates": "\n5 октября 2023: все адреса переводятся в формат UQ в Qazaq Wallet.\n\n1 января 2024: Qazaq Wallet прекращает проверку статуса контракта и использует в адресе флаг «bounceable». Монеты, отправленные на неопубликованные контракты с EQ-адресом, вернутся обратно отправителю.",
+      "post_published_date": "Опубликовано: 27 сентября 2023",
+      "post_rest": "В сети TON возможно использование двух стилей адресов, но только один из них используется для всех типов аккаунтов: и приложений, и әмияндар.\n\nФормат EQ лучше всего подходит для смарт-контрактов, обрабатывающих входящие средства. Если смарт-контракт ещё не опубликован (т.е. кода нет в блокчейне), то TONы, отправленные на этот адрес, вернутся отправителю. Это такая функция безопасности — в случае какой-либо ошибки TONы возвращаются.\n\nФормат UQ лучше всего подходит для әмияндар. Так как әмияндар предназначены для хранения средств, то отправка денег должна сработать даже когда у әмияны ещё не опубликован код. Поэтому, было бы бессмысленно делать так, чтобы монеты возвращались.\n\nВ этом году мы переводим әмияндар на более правильный формат “UQ”. Если вы продолжите отправлять средства на EQ-адрес, который вам кто-то давно дал, то возможны два варианта:\n",
+      "post_top": "К концу этого года вся сеть TON будет отображать адреса әмияндар по-другому. Новый адрес будет начинаться с UQ вместо EQ. И последние четыре буквы тоже изменятся. Старый адрес продолжит работать и вести на тот же әмиян. Всё это никак не повлияет на безопасность средств, хранящихся у вас в кошельке.",
+      "second_option": "Менее вероятно, что әмиян получателя ещё не использовался для платежей и со следующего года Qazaq Wallet не будет отправлять деньги на этот адрес. Вам нужно будет попросить получателя дать новый UQ-адрес.",
+      "title": "Обновление адреса",
+      "why_change": "Для чего это обновление?",
+      "your_wallet": "Ваш әмиян"
+    },
+    "add_wallet_modal": {
+      "create": {
+        "subtitle": "Жаңа әмиян жасау",
+        "title": "Жаңа әмиян"
+      },
+      "import": {
+        "subtitle": "24 сөзден тұратын құпия кілтпен импорттау",
+        "title": "Бар әмиян"
+      },
+      "import_subtitle": "Выберите один из вариантов ниже.",
+      "import_title": "Әмиян қосу",
+      "ledger": {
+        "subtitle": "Аппаратный модуль, Bluetooth, ограниченные функции TON",
+        "title": "Ledger қосу"
+      },
+      "other_options": "Басқа опциялар",
+      "signer": {
+        "subtitle": "Полностью оффлайн, изолированный, все функции TON",
+        "title": "Signer қосу"
+      },
+      "subtitle": "Жаңа әмиян жасаңыз немесе бар әмиянды қосыңыз.",
+      "title": "Әмиян қосу"
+    },
+    "add_watch_only": {
+      "subtitle": "Отслеживайте активность, получайте уведомления о транзакциях этого әмияны без ввода секретного ключа.",
+      "wallet_not_found": "Адрес әмияны не найден"
+    },
+    "all_regions": "Все регионы",
+    "appearance_accent_name": {
+      "andromeda": "Андромеда",
+      "arctic": "Арктика",
+      "azure": "Лазурь",
+      "coral": "Коралл",
+      "cosmos": "Космос",
+      "default": "Qazaq Wallet",
+      "flamingo": "Фламинго",
+      "fluid": "Флюид",
+      "galaxy": "Галактика",
+      "iris": "Ирис",
+      "marine": "Море",
+      "ocean": "Океан",
+      "sky": "Небо"
+    },
+    "appearance_confirm": "Применить",
+    "appearance_description": "TON Diamonds NFT сделает ваш әмиян более красочным и уникальным.",
+    "appearance_title": "Оформление",
+    "app_name": "Qazaq Wallet",
+    "approval": {
+      "accept": "Принять",
+      "accepted_at_collection": "Принята {date}",
+      "accepted_at_token": "Принят {date}",
+      "accepted_collection": "Коллекция принята",
+      "accepted_token": "Токен принят",
+      "approve_all": "Принять всё",
+      "approve_collection_many": "Одобрите входящие токены из коллекции \"{collection}\"",
+      "approve_collection_one": "Одобрите входящий токен из коллекции \"{collection}\"",
+      "approve_many": "Одобрите {count} входящих токенов",
+      "approve_many.few": "Одобрите {count} входящих токена",
+      "approve_many.many": "Одобрите {count} входящих токенов",
+      "approve_many.one": "Одобрите {count} входящий токен",
+      "approve_many.other": "Одобрите {count} входящих токенов",
+      "approve_token": "Одобрите входящий токен \"{name}\" ",
+      "approve_two_collections": "Одобрите входящие токены из коллекций \"{collection1}\" \"{collection2}\"",
+      "approve_two_tokens": "Одобрите входящие токены \"{name1}\" и \"{name2}\"",
+      "blacklisted_collection": "Коллекция в чёрном списке",
+      "blacklisted_token": "Токен в чёрном списке",
+      "decline": "Отклонить",
+      "declined_at_collection": "Отклонена {date}",
+      "declined_at_token": "Отклонён {date}",
+      "details_collection": "Толығырақ о коллекции",
+      "manage_tokens": "Настроить токены",
+      "move_to_accepted": "Переместить в Принятые",
+      "move_to_accepted_collection": "Показывать коллекцию в кошельке",
+      "move_to_accepted_token": "Показывать токен в кошельке",
+      "move_to_declined": "Переместить в Отклонённые",
+      "move_to_declined_collection": "Жасыру коллекцию из әмияны",
+      "move_to_declined_token": "Жасыру токен из әмияны",
+      "pending": "В ожидании",
+      "show_all": "Показать все",
+      "single_token": "Жеке токен",
+      "token_copied": "ID токена скопирован",
+      "token_count": {
+        "few": "{count} токена",
+        "many": "{count} токенов",
+        "one": "{count} токен",
+        "other": "{count} токенов"
+      },
+      "verify_collection": "Проверьте коллекцию",
+      "verify_description_collection": "Эти токены выпущены неизвестным эмитентом. Для обнаружения подделок проверьте ID коллекции в официальном источнике эмитента. Вы всегда можете изменить видимость коллекции в настройках.",
+      "verify_description_token": "Этот токен выпущен неизвестным эмитентом. Для обнаружения подделок проверьте ID токена в официальном источнике эмитента. Вы всегда можете изменить видимость токена в настройках.",
+      "verify_token": "Проверьте токен",
+      "whitelisted_collection": "Коллекция в белом списке",
+      "whitelisted_token": "Токен в белом списке"
+    },
+    "auth_failed": "Авторизация не прошла",
+    "backup_check": {
+      "caption": "Давайте проверим, все ли вы записали правильно. Введите слова {one}, {two}, и {three}.",
+      "done_button": "Дайын",
+      "title": "Проверка резервной копии"
+    },
+    "backup_screen": {
+      "backup_warning": "На вашем балансе {totalFiat} и он защищён только секретным ключом, который вы ещё не записали. Сделайте резервную копию ключа, чтобы не потерять средства в случае проблем с устройством.",
+      "last_backup_time": "Последняя {time}",
+      "manual_backup_on": "Қалпына келтіру фразасын сақтау сделана",
+      "manual_button": "Сделать копию вручную",
+      "manual_caption": "Создайте резервную копию своего әмияны вручную, записав секретный ключ.",
+      "manual_title": "Вручную",
+      "show_recovery_phrase": "Показать секретный ключ",
+      "title": "Қалпына келтіру фразасын сақтау"
+    },
+    "backup_warning": {
+      "cancel_button": "Бас тарту",
+      "caption": "Пожалуйста, внимательно прочитайте перед просмотром секретного ключа.",
+      "continue_button": "Жалғастыру",
+      "p1": "Никогда и нигде не вводите свой секретный ключ для доступа к әмиянға, кроме Qazaq Wallet.",
+      "p2": "Қолдау Qazaq Wallet никогда не запрашивает секретный ключ.",
+      "p3": "Любой, кто знает ваш секретный ключ, сможет получить доступ к вашему әмиянға.",
+      "title": "Назар аударыңыз"
+    },
+    "battery": {
+      "description": {
+        "empty": "Айырбастауивайте и отправляйте токены.",
+        "less_10": "У вас достаточно заряда для менее чем 10 транзакций.",
+        "other": "У вас достаточно заряда для более чем {{cnt}} транзакций.",
+        "other.few": "В вашей батарейке {count} заряда",
+        "other.many": "В вашей батарейке {count} зарядов",
+        "other.one": "В вашей батарейке {count} заряд",
+        "other.other": "В вашей батарейке {count} зарядов"
+      },
+      "max_input_amount": "Максимальная сумма: {amount}",
+      "ok": "OK",
+      "other_ways": {
+        "promo": {
+          "subtitle": "А вы счастливчик",
+          "title": "Ввести промо-код"
+        }
+      },
+      "packages": {
+        "buy": "Сатып алу",
+        "ok": "OK",
+        "refilled": "Ваша батарейка заряжена",
+        "refund": "Тарих зарядов",
+        "restore": "Восстановить покупки",
+        "subtitle": {
+          "few": "{count} заряда",
+          "many": "{count} зарядов",
+          "one": "{count} заряд",
+          "other": "{count} зарядов"
+        },
+        "title": {
+          "large": "Большой",
+          "medium": "Средний",
+          "small": "Малый"
+        }
+      },
+      "promocode": {
+        "apply": "Применить",
+        "button": "Зарядить с помощью промокода",
+        "placeholder": "Промокод",
+        "success": "Ваша батарейка заряжена"
+      },
+      "recharge_by_crypto": {
+        "continue": "Жалғастыру",
+        "title_gift": "Подарок",
+        "tokens": "Токендер"
+      },
+      "refilled": "Батарейка заряжена",
+      "refund": {
+        "subtitle": "Пополнения и возврат",
+        "title": "Тарих зарядов"
+      },
+      "screen_title": "Батарейка",
+      "send_widget": {
+        "battery": "Батарейка"
+      },
+      "settings": "Батарейка",
+      "transactions": {
+        "charges_per_action": {
+          "few": "≈ {count} заряда за {transactionName}",
+          "many": "≈ {count} зарядов за {transactionName}",
+          "one": "≈ {count} заряд за {transactionName}",
+          "other": "≈ {count} зарядов за {transactionName}"
+        },
+        "supported": "Поддерживаемые транзакции",
+        "types": {
+          "jetton": "отправка токенов",
+          "swap": "обмен",
+          "ton": "отправка TON"
+        },
+        "will_be_paid": "Будут оплачены: {enabledTransactions}"
+      }
+    },
+    "biometry": {
+      "android": {
+        "face_recognition": "распознавание лица",
+        "face_recognition_genitive": "распознавания лица",
+        "face_recognition_instrumental": "распознаванием лица",
+        "fingerprint": "отпечаток пальца",
+        "fingerprint_genitive": "отпечатка пальца",
+        "fingerprint_instrumental": "отпечатком"
+      },
+      "default_accusative": "биометрию",
+      "default_genitive": "биометрии",
+      "default_instrumental": "биометрией",
+      "ios": {
+        "face_recognition": "Face ID",
+        "face_recognition_genitive": "Face ID",
+        "face_recognition_instrumental": "Face ID",
+        "fingerprint_genitive": "Touch ID",
+        "fingerprint_instrumental": "Touch ID"
+      }
+    },
+    "bluetooth": {
+      "permissions_alert": {
+        "cancel": "Бас тарту",
+        "message": "Пожалуйста, включите разрешения Bluetooth в настройках, чтобы использовать эту функцию",
+        "open_settings": "Ашу настройки",
+        "title": "Разрешения Bluetooth"
+      },
+      "powered_off_alert": {
+        "cancel": "Бас тарту",
+        "message": "Пожалуйста, включите Bluetooth, чтобы использовать эту функцию",
+        "open_settings": "Ашу настройки",
+        "title": "Bluetooth выключен"
+      }
+    },
+    "browser": {
+      "about_dapps_caption": "Исследуйте приложения и сервисы, в которых вы можете использовать Qazaq Wallet для входа и платежей.",
+      "about_dapps_learn_more": "Толығырақ",
+      "about_dapps_title": "Используйте Qazaq Wallet с приложениями и сервисами TON.",
+      "actions": {
+        "disconnect": "Отключить",
+        "mute": "Заглушить"
+      },
+      "connected_empty_text": "Исследуйте приложения и сервисы в браузере Qazaq Wallet.",
+      "connected_empty_title": "Ваши приложения будут здесь",
+      "connected_title": "Подключённые",
+      "empty_search": "По вашему запросу ничего не найдено",
+      "explore": "Витрина",
+      "explore_all": "Другие",
+      "more_description": "Маркеты, биржи и другие",
+      "more_title": "Исследуйте все сервисы",
+      "open_link": "Ашу ссылку",
+      "popular_title": "Популярные",
+      "remove_alert": {
+        "approve_button": "Отключить",
+        "title": "Отключить «{name}»?"
+      },
+      "search_label": "Іздеу",
+      "start_typing": "Введите адрес или начните поиск",
+      "web_search_title": "Іздеу в {searchEngine}"
+    },
+    "buy_ton": {
+      "subtitle": "Моментально с банковской картой",
+      "title": "TON сатып алу"
+    },
+    "chart": {
+      "check_connection": "Проверьте подключение и повторите попытку.",
+      "no_internet": "Нет подключения к интернету",
+      "periods": {
+        "1D": "Д",
+        "1H": "Ч",
+        "1M": "М",
+        "1Y": "Г",
+        "6M": "6M",
+        "7D": "Н"
+      },
+      "price": "Цена"
+    },
+    "choose_country": {
+      "auto": "Автоматически",
+      "cancel": "Бас тарту",
+      "empty_placeholder": "По вашему запросу ничего не найдено",
+      "search": "Іздеу",
+      "title": "Выберите вашу страну"
+    },
+    "choose_currency": {
+      "currencies": {
+        "AED": "Дирхам ОАЭ",
+        "BDT": "Бангладешская така",
+        "BRL": "Бразильский реал",
+        "BYN": "Белорусский рубль",
+        "CAD": "Канадский доллар",
+        "CHF": "Швейцарский франк",
+        "CNY": "Китайский юань",
+        "EUR": "Евро",
+        "GBP": "Фунт стерлингов",
+        "GEL": "Грузинский лари",
+        "IDR": "Индонезийская рупия",
+        "ILS": "Израильский шекель",
+        "INR": "Индийская рупия",
+        "IRR": "Иранский риал",
+        "JPY": "Японская иена",
+        "KRW": "Южнокорейская вона",
+        "KZT": "Қазақша тенге",
+        "NGN": "Нигерийская найра",
+        "RUB": "Российский рубль",
+        "THB": "Тайский бат",
+        "TRY": "Турецкая лира",
+        "UAH": "Украинская гривна",
+        "USD": "Доллар США",
+        "UZS": "Узбекский сум",
+        "VND": "Вьетнамский донг"
+      },
+      "header_title": "Основная валюта"
+    },
+    "choose_wallets": {
+      "already_added": "Уже добавлен",
+      "tokens": "токены",
+      "w5_subtitle": "Сниженные комиссии, безгазовые транзакции и мультипереводы.",
+      "w5_subtitle_link": "Толығырақ"
+    },
+    "confirm_renew_all_domains_title": "Растау действие",
+    "confirm_sending_amount": "Сома",
+    "confirm_sending_inactive_warn_about": "Что важно знать",
+    "confirm_sending_inactive_warn_description": "Не продолжайте, если вы ожидаете волшебства от блокчейна. Этого не произойдет.",
+    "confirm_sending_inactive_warn_title": "Неактивный контракт",
+    "confirm_sending_liquid_warn_description": "Вы больше не будете получать награды за отправленный застейканный TON. Награды начнёт получать новый владелец.",
+    "confirm_sending_liquid_warn_title": "Примечание",
+    "confirm_sending_message": "Түсініктеме",
+    "confirm_sending_method_title": "Send your funds\nto {name}?",
+    "confirm_sending_recipient": "Алушы",
+    "confirm_sending_recipient_address": "Адрес получателя",
+    "confirm_sending_sent_caption_btc": "Транзакция отправлена в сеть и будет подтверждена в течение часа.",
+    "confirm_sending_sent_caption_ton": "Транзакция отправлена в сеть и будет подтверждена через пару секунд.",
+    "confirmSendModal": {
+      "network_fee": "Комиссия сети",
+      "refund": "Возврат",
+      "title": "Растау действие",
+      "title_multiwallets": "Действия для %{walletName}",
+      "total_risk": "Барлығы: {totalAmount}",
+      "to_your_address": "На ваш адрес",
+      "transaction_type": {
+        "burn": "Сжечь",
+        "receive": "Алу",
+        "send": "Жіберу"
+      },
+      "will_be_paid_with_battery": "Будет оплачена батарейкой"
+    },
+    "copy_error_log": "Көшіру лог ошибки",
+    "create_wallet_continue_button": "Понятно",
+    "customize_modal": {
+      "save": "Сақтаңыз",
+      "wallet_name": "Имя әмияны"
+    },
+    "decryption_error": "Қате расшифровки",
+    "deploy_contract_button": "Растау и разместить",
+    "deploy_contract_title": "Разместить контракт",
+    "disable_nft_marketplace_banner_description": "Сатып алыңыз, сатыңыз, жинақтаңыз және айырбастаңыз.",
+    "dns_addresses": {
+      "few": "{count} адреса",
+      "many": "{count} адресов",
+      "one": "{count} адрес",
+      "other": "{count} адресов"
+    },
+    "dns_alert_expiring_many": {
+      "few": "У вас есть {count} домена с истекающим сроком аренды. Продлите все до {untilDate}.",
+      "many": "У вас есть {count} доменов с истекающим сроком аренды. Продлите все до {untilDate}.",
+      "one": "У вас есть {count} домен с истекающим сроком аренды. Продлите все до {untilDate}.",
+      "other": "У вас есть {count} доменов с истекающим сроком аренды. Продлите все до {untilDate}."
+    },
+    "dns_alert_expiring_one": {
+      "few": "{domain} истекает через {count} дня. Продлите до {untilDate}.",
+      "many": "{domain} истекает через {count} дней. Продлите до {untilDate}.",
+      "one": "{domain} истекает через {count} день. Продлите до {untilDate}.",
+      "other": "{domain} истекает через {count} дней. Продлите до {untilDate}."
+    },
+    "dns_link_title": "Подтвердите транзакцию",
+    "dns_on_sale_text": "Домен сейчас выставлен на продажу на маркете. Чтобы передать, необходимо сначала снять его с продажи.",
+    "dns_renew_all_until_btn": "Продлить все до {untilDate}",
+    "dns_renew_in_progress_btn": "Выполняется продление домена…",
+    "dns_renew_valid_caption": {
+      "few": "Истекает через {count} дня",
+      "many": "Истекает через {count} дней",
+      "one": "Истекает через {count} день",
+      "other": "Истекает через {count} дней"
+    },
+    "dns_replace_button": "Заменить",
+    "dns_replace_description": "Добавьте адрес әмияны, на который будет ссылаться домен '{{'domain'}}'.",
+    "dns_replace_save": "Сақтау",
+    "dns_unlink_title": "Подтвердите отвязку",
+    "dns_wallet_address": "Адрес әмияны",
+    "domains_renewed": "Домены продлены",
+    "edit_coins_add": "Включить",
+    "edit_coins_added": "Включено",
+    "edit_coins_added_toast": "Включено",
+    "edit_coins_hide": "Жасыру",
+    "edit_coins_title": "Валюты",
+    "encryptedComments": {
+      "encryptedComment": "Түсініктеме",
+      "encryptedCommentModal": {
+        "button": "Расшифровать комментарий",
+        "checkboxLabel": "Не показывать снова",
+        "description": "Түсініктеме зашифрован отправителем и может быть расшифрован только вами. Пожалуйста, осторожно относитесь к содержанию и остерегайтесь мошенничества.",
+        "title": "Зашифрованный комментарий"
+      },
+      "show": "Показать"
+    },
+    "error_network": "Қате сети",
+    "exchange_modal": {
+      "buy": "Сатып алу",
+      "hide": "Жасыру",
+      "sell": "Сату",
+      "show_all": "Показать все",
+      "title": "Сатып алу немесе сату"
+    },
+    "exchange": {
+      "not_exists": "Неверный ID обменника"
+    },
+    "exchange_telegram_bot": "TELEGRAM BOT",
+    "expiring_domains": "Истекающие домены",
+    "finish_setup": {
+      "backup": "Создайте резервную копию секретного ключа әмияны",
+      "done_buttom": "Done",
+      "done_button": "Дайын",
+      "enable_notifications": "Включите уведомления о транзакциях",
+      "header_title": "Завершить установку",
+      "join_tg": "Присоединяйтесь к каналу Qazaq Wallet",
+      "use_biometry": "Включите {name} для подтверждения транзакций"
+    },
+    "form_optional_indicator": "Необязательно",
+    "gasless": {
+      "switch_label": "Оплатить в {currency}"
+    },
+    "import_wallet_reset_caption": "Чтобы восстановить доступ, введите 24 секретных слова, которые вы получили при создании әмияны.",
+    "indexer_latency_error": "Қате отправки. Попробуйте позже",
+    "info_about_inactive_desc1": "Qazaq Wallet не знает, является ли этот адрес әмиянмен или смарт-контрактом.",
+    "info_about_inactive_desc2": "Если вы хотите просто перевести деньги на әмиян — вы можете продолжить.",
+    "info_about_inactive_desc3_1": "Если вы ожидаете автоматического действия от смарт-контракта,",
+    "info_about_inactive_desc3_2": "— ваш денежный перевод может застрять на адресе этого әмияны.",
+    "info_about_inactive_desc3_bold": " НЕ ПРОДОЛЖАЙТЕ ",
+    "info_about_inactive_title": "Неактивный контракт",
+    "intro_item3_caption": "-",
+    "intro_item3_title": "-",
+    "jetton_buy_tether": "USD₮ сатып алу",
+    "jetton_id_copied": "ID токена скопирован",
+    "jetton_locked_till": "Заблокированы до {date}",
+    "jetton_migrate_tether": "Айырбастау jUSDT на USD₮",
+    "jetton_name": "{name} Токен",
+    "jetton_open_explorer": "Толығырақ",
+    "jetton_price": "Цена:",
+    "jettons_manage_tokens": "Настроить токены",
+    "jetton_token": "Токен",
+    "language": {
+      "language_alert": {
+        "cancel": "Бас тарту",
+        "open": "Баптаулар",
+        "title": "Чтобы изменить язык приложения, перейдите в настройки устройства"
+      },
+      "languagesList": {
+        "en": "Ағылшынша",
+        "kk": "Қазақша",
+        "ru": "Орысша",
+        "system": "Жүйелік"
+      },
+      "list_item": {
+        "title": "Тіл",
+        "value": "Қазақша"
+      },
+      "title": "Тіл"
+    },
+    "ledger": {
+      "confirm_title": "Растау действие",
+      "confirm_tx": "Подтвердите транзакцию в Ledger",
+      "connect": "Подключите Ledger к своему устройству с помощью Bluetooth",
+      "connect_title": "Ledger қосу",
+      "install_ton_app": "Установить приложение",
+      "open_ton_app": "Разблокируйте его и откройте приложение TON"
+    },
+    "link_copied": "Ссылка скопирована",
+    "logout_modal": {
+      "agreement": "У меня есть резервная копия фразы восстановления әмияны",
+      "backup_button": "Сделать резервную копию",
+      "caption": "Әмиян кілттері осы құрылғыдан жойылады.",
+      "delete_button": "Әмиян деректерін жою",
+      "delete_caption": "Әмиян кілттері және барлық жеке деректер осы құрылғыдан жойылады.",
+      "delete_title": "Әмиян деректерін жою",
+      "logout_button": "Шығу",
+      "title": "Шығу"
+    },
+    "manage_other_coins": "Настроить валюты",
+    "migration_cancel_btn": "Не обновлять сейчас",
+    "migration_caption": "Qazaq Wallet вводит новый формат әмияны с поддержкой подписок. Баланс будет перенесен на новый адрес, секретный ключ останется прежним.",
+    "migration_failed": "Обновление не прошло. Средства остались на старом кошельке.",
+    "migration_fee_info": "Комиссия за транзакцию ≈{tonFee} TON ({fiatFee})",
+    "migration_in_progress": "Идёт обновление на 4-ю версию",
+    "migration_migrate_btn": "Жаңарту әмиян",
+    "migration_new_wallet": "Жаңа әмиян",
+    "migration_old_wallet": "Старый әмиян",
+    "migration": {
+      "subtitle": "Разблокируйте әмиян, чтобы продолжить.",
+      "title": "Перенесите свой әмиян в новую версию Qazaq Wallet",
+      "with_biometry": "Жалғастыру с {type}"
+    },
+    "migration_title": "Обновите әмиян",
+    "nft_about_dns": "TON DNS — сервис, который позволяет задать криптоәмияным, смарт-контрактам или сайтам короткие читаемые имена. \n\nС TON DNS доступ к децентрализованным сервисам аналогичен доступу к веб-сайтам в интернете.",
+    "nft_actions": {
+      "hide": {
+        "collection": "Жасыру коллекцию"
+      }
+    },
+    "nft_browse_markets": "Исследовать маркеты",
+    "nft_chain": "Сеть",
+    "nft_change_owner_title": "Сменить владельца коллекции",
+    "nft_change_theme": "Изменить тему",
+    "nft_collection_name": "Название коллекции",
+    "nft_confirm_operation": "Растау",
+    "nft_diamonds_description": "TON Diamonds обладают способностью менять тему в вашем кошельке Qazaq Wallet и сопоставлять ее с цветом вашего NFT.",
+    "nft_features": "Возможности",
+    "nft_fee": "Комиссия",
+    "nft_fee_and_royalties": "Комиссия и роялти",
+    "nft_hide_details": "Жасыру детали",
+    "nft_item_deploy_title": "Выпустить NFT",
+    "nft_item_name": "Название NFT",
+    "nft_link_domain_caption": "После того, как вы привяжете домен, вы сможете отправить его и использовать в качестве имени для своего адреса.",
+    "nft_link_domain_mismatch_warn": "Домен не связан с вашим текущим адресом. Будьте осторожны с транзакциями на этот домен.",
+    "nft_link_username_caption": "После того, как вы привяжете имя, вы сможете отправить его и использовать в качестве имени для своего адреса.",
+    "nft_link_username_mismatch_warn": "Имя не связано с вашим текущим адресом. Будьте осторожны с транзакциями на это имя.",
+    "nft_marketplace_address": "Маркетплейс",
+    "nft_marketplace_banner_description": "Сатып алыңыз, сатыңыз, жинақтаңыз және айырбастаңыз.",
+    "nft_marketplace_banner_title": "NFT токендеріңіз осында сақталады",
+    "nft_marketplaces": "Маркеты",
+    "nft_marketplaces_title": "NFT маркеты",
+    "nft_metadata": "Метаданные",
+    "nft_new_owner_address": "Новый адрес владельца",
+    "nft_operations_expired": "Время запроса истекло, попробуйте еще раз",
+    "nft_operation_slide_to_confirm": "Растау",
+    "nft_operation_success": "Дайын",
+    "nft_price": "Цена",
+    "nft_proceeds": "Ваш доход",
+    "nft_properties": "Характеристики",
+    "nft_royalty": "Роялти",
+    "nft_royalty_address": "Адрес роялти",
+    "nft_sale_cancel_title": "Убрать с продажи",
+    "nft_sale_place_title": "Продажа NFT",
+    "nft_show_details": "Толығырақ",
+    "nft_standard": "Стандарт токена",
+    "nft_title": "NFT",
+    "nft_token_id": "ID токена",
+    "nft_transaction_head_placeholder": "NFT",
+    "nft_transfer_comment": "Түсініктеме",
+    "nft_transfer": {
+      "confirm": {
+        "fee": {
+          "label": "Комиссия",
+          "refund_label": "Возврат",
+          "value": "≈ {value} TON"
+        }
+      }
+    },
+    "nft_transfer_description": "NFT будет отправлен на этот адрес. Будьте осторожны при отправке NFT, который вы отправляете другому пользователю.",
+    "nft_transfer_dns": "Жіберу",
+    "nft_transfer_recipient": "Алушы",
+    "nft_unnamed_collection": "Коллекция без названия",
+    "nokyc": "без KYC",
+    "notcoin": {
+      "all": "Айырбастау все в Qazaq Wallet Pro",
+      "burn_not_available": {
+        "hours": {
+          "few": "Айырбастау будет доступен через {count} часа",
+          "many": "Айырбастау будет доступен через {count} часов",
+          "one": "Айырбастау будет доступен через {count} час",
+          "other": "Айырбастау будет доступен через {count} часов"
+        },
+        "minutes": {
+          "few": "Айырбастау будет доступен через {count} минуты",
+          "many": "Айырбастау будет доступен через {count} минут",
+          "one": "Айырбастау будет доступен через {count} минуту",
+          "other": "Айырбастау будет доступен через {count} минут"
+        },
+        "seconds": {
+          "few": "Айырбастау будет доступен через {count} секунды",
+          "many": "Айырбастау будет доступен через {count} секунд",
+          "one": "Айырбастау будет доступен через {count} секунду",
+          "other": "Айырбастау будет доступен через {count} секунд"
+        }
+      },
+      "count": "Количество ваучеров",
+      "count_max": "Максимум 4 за обмен",
+      "exchange": "Айырбастау\nваучеры на NOT",
+      "exchange_all": "Айырбастау все\nв Qazaq Wallet Pro",
+      "exchange_subtitle": "NOT появятся на вашем балансе вскоре после обмена.",
+      "exchange_title": "Айырбастауяйте свои ваучеры на NOT",
+      "exchange_to_not": "Айырбастау на NOT",
+      "name": "Notcoin",
+      "not_vouchers": "Ваучеры NOT",
+      "open": "Ашу",
+      "open_bot": "Ашу Notcoin Bot",
+      "slogan": "Probably nothing",
+      "total_amount": "Сома",
+      "verify_subtitle": "Проверка может занять несколько часов.",
+      "verify_title": "Подключите әмиян к Notcoin Bot, чтобы проверить сжигание"
+    },
+    "notifications": {
+      "alert": {
+        "description": "Адрес ссылки из уведомления не совпадает с адресом приложения.",
+        "open": "Ашу всё равно",
+        "title": "Вы уверены, что хотите открыть внешнюю ссылку?"
+      },
+      "allow_notifications": "Включить уведомления",
+      "apps": "Приложения",
+      "apps_description": "Хабарландырулар от подключенных приложений в вашей активности",
+      "disconnect_app": "Отключить {app_name}",
+      "disconnected_app": "Disconnected app",
+      "earlier": "Ранее",
+      "from_connected": "От ваших приложений",
+      "muted": "Хабарландырулар заглушены",
+      "mute_notifications": "Отключить уведомления",
+      "notifications": "Хабарландырулар",
+      "placeholder": {
+        "description": "Исследуйте приложения и сервисы в браузере Qazaq Wallet.",
+        "title": "Хабарландырулар будут отображаться здесь"
+      },
+      "report": "Пожаловаться"
+    },
+    "notifications_disabled_action": "Ашу настройки",
+    "notifications_disabled_description": "Вы отключили уведомления в настройках устройства. Чтобы ничего не пропустить разрешите уведомления.",
+    "notifications_disabled_title": "Хабарландырулар отключены",
+    "notifications_not_supported": "Хабарландырулар не поддерживаются на вашем устройстве",
+    "notifications_switch_title": "Push-уведомления",
+    "notifications_title": "Хабарландырулар",
+    "notification_switch_description": "Получайте уведомления при получении TON, токенов, NFT и уведомления от подключенных приложений.",
+    "notify_connection_err_caption": "{host} не отвечает. Попробуйте позже.",
+    "notify_connection_err_caption_few": "{hosts} и {lastHost} не отвечают. Попробуйте позже.",
+    "notify_connection_err_title": "Нет связи с сервером",
+    "notify_incorrect_time_err_caption": "Включите автоматическое время и дату в настройках устройства. Автоматическое время поможет избежать ошибок при переводе средств.",
+    "notify_incorrect_time_err_title": "Время и дата выставлены неверно",
+    "notify_no_signal_caption": "Проверьте соединение с интернетом.",
+    "notify_no_signal_title": "Нет связи",
+    "old_wallet_error": "Используйте әмиян версии v4R2",
+    "pairSigner": {
+      "about": "Толығырақ про Signer",
+      "subtitle": "Откройте Signer » Выберите ключ » Отсканируйте QR-код",
+      "title": "Отсканируйте QR-код"
+    },
+    "passcode_changed": "Пин-код изменён",
+    "pin_enter_faceid_err": "Қате сканирования биометрии",
+    "pin_enter_skip_faceid_err": "Қате сканирования биометрии",
+    "platform": {
+      "android": {
+        "capitalized_face_recognition": "Распознавание лица",
+        "capitalized_fingerprint": "Отпечаток пальца",
+        "face_recognition": "распознавание лица",
+        "face_recognition_genitive": "распознавания лица",
+        "fingerprint": "отпечаток пальца",
+        "fingerprint_genitive": "отпечатка пальца"
+      },
+      "ios": {
+        "capitalized_face_recognition": "Face ID",
+        "capitalized_fingerprint": "Touch ID",
+        "face_recognition": "Face ID",
+        "face_recognition_genitive": "Face ID",
+        "fingerprint": "Touch ID",
+        "fingerprint_genitive": "Touch ID"
+      }
+    },
+    "programmable_nfts": {
+      "alert": {
+        "cancel": "Бас тарту",
+        "description": "Переходите по этой внешней ссылке только в том случае, если вы доверяете автору коллекции.\n\n'{{'uri'}}'",
+        "open": "Ашу всё равно",
+        "title": "Вы уверены, что хотите открыть внешнюю ссылку?"
+      }
+    },
+    "receive_address_title": "Или используйте адрес",
+    "receive_copy": "Копировать",
+    "receiveModal": {
+      "receive": "Алу",
+      "receive_description": "Отправляйте на этот адрес только {tokenName} и токены в сети TON, иначе вы можете потерять свои средства.",
+      "receive_title": "Алу {tokenName}",
+      "receive_ton": "Отправляйте на этот адрес только Toncoin TON и токены в сети TON, иначе вы можете потерять свои средства."
+    },
+    "receive_qr_title": "Покажите QR-код",
+    "receive_received_title": "Вам зачислено\n{amount} {currency}",
+    "receive_share": "Поделиться",
+    "receive_title": "Алу {currency}",
+    "receive_ton_and_jettons": "TON мен басқа токендерді алу",
+    "recovery_phrase": {
+      "caption": "Запишите эти слова с их номерами и сохраните их в надежном месте.",
+      "check_button": "Тексеру резервную копию",
+      "title": "Құпия сид-фраза"
+    },
+    "refresh_app": "Перезапустить",
+    "region_nokyc": "Нейтральные воды",
+    "renew_in_progress": "Выполняется продление…",
+    "renew_progress_of": "{current} из {count}",
+    "require_create_wallet_modal_caption": "Чтобы использовать Qazaq Wallet, нужен әмиян. Создайте новый или подключите существующий.",
+    "require_create_wallet_modal_create_new": "Жаңа әмиян жасау",
+    "require_create_wallet_modal_import": "Қосу существующий",
+    "require_create_wallet_modal_title": "Сперва подключим әмиян",
+    "restake_banner": {
+      "stake_into_step": "Внесите доступный TON в Tonstakers.",
+      "stake_into_tonstakers_action": "Внести в Tonstakers",
+      "title": "Зарабатывайте больше TON c %apy в ликвидном стейкинге Tonstakers.",
+      "unstake_action_all": "Вывести {amount}",
+      "unstake_action_manual": "Ввести вручную",
+      "unstake_step": "Выведите TON из своего текущего стейкинга.",
+      "wait_step": "Дождитесь, пока ваш TON станет доступным.",
+      "wait_step_collect": "Вывести",
+      "wait_step_cooldown": "Ваш TON совсем скоро будет готов к выводу.",
+      "wait_step_pending": "Ваш TON будет готов к выводу через {0, number}uration.",
+      "wait_step_withdraw": "Ваш TON готов к выводу."
+    },
+    "scan_qr_open_settings": "Ашу настройки",
+    "scan_qr_permission_error": "Разрешите доступ к камере, чтобы сканировать QR-коды",
+    "security_lock_screen_switch": "Экран блокировки",
+    "security_lock_screen_tip": "Запрос пароля для просмотра әмияны.",
+    "security_migration_caption": "Пин-код теперь защищает весь әмиян, в дополнение к подтверждению платежей. Включите {faceRecognition} для быстрого доступа.",
+    "security_migration_skip_button": "Не обновлять сейчас",
+    "security_migration_submit_button": "Включить защиту",
+    "security_migration_title": "Обновление защиты әмияны",
+    "security_reset_passcode": "Сбросить пин-код",
+    "security_title": "Қауіпсіздік",
+    "security_use_biometry_switch": "Использовать {biometryType}",
+    "security_use_biometry_tip": "Вы всегда можете разблокировать әмиян с помощью пин-кода",
+    "send_address_placeholder": "Адрес или имя",
+    "send_all_warning_title": "Вы уверены, что хотите отправить весь свой баланс?",
+    "send_build_tx_error": "Қате создания транзакции",
+    "send_get_wallet_info_error": "Қате запроса әмияны",
+    "send_insufficient_funds": "Қаражат жеткіліксіз",
+    "send_invalid_recipient_caption": "Домен не существует или адрес әмияны к нему не привязан. Введите действительный адрес домена или әмияны.",
+    "send_invalid_recipient_title": "Неверный получатель",
+    "send_lockup_warning_caption": "Проверьте что вы отправляете сумму на разрешенный адрес.\n\nЕсли транзакция отклонена сетью, комиссия всё равно будет списана.",
+    "send_lockup_warning_submit_button": "Жіберу",
+    "send_lockup_warning_title": "Сома превышает ликвидный баланс",
+    "send_screen_steps": {
+      "address": {
+        "placeholder": "Адрес әмияны или домен",
+        "recent_label": "Недавние",
+        "suggest_actions": {
+          "edit": "Редактировать"
+        },
+        "title": "Алушы"
+      },
+      "amount": {
+        "less_than_min": "Минимум {minAmount} TON",
+        "less_than_min_with_symbol": "Минимум {minAmount} {symbol}",
+        "liquid_jetton_note": "Отправка токена ликвидности tsTON",
+        "recipient_label": "Кому:",
+        "title": "Сома"
+      },
+      "comfirm": {
+        "action": "Отправка {coin}",
+        "comment_ascii_text": "Используйте только ASCII символы: цифры, буквы латинского алфавита и знаки пунктуации.",
+        "comment_decrypt": "Расшифровать",
+        "comment_description": "Будет виден всем.",
+        "comment_description_encrypted": "Будет виден только получателю и вам.",
+        "comment_encrypt": "Зашифровать комментарий",
+        "comment_label": "Түсініктеме",
+        "comment_label_encrypted": "Зашифрованный комментарий",
+        "comment_label_required": "Түсініктеме",
+        "details_label": "Детали",
+        "details_max_balance_label": "Отправка всего баланса {currency}",
+        "will_be_paid_with_battery": "Будет оплачена батарейкой"
+      },
+      "done": {
+        "add_favorite": "Қосу адрес в избранное",
+        "address": "Адрес: {address}",
+        "comment": "Түсініктеме: {comment}",
+        "description": "Ваша транзакция отправлена в сеть и будет обработана через несколько секунд.",
+        "favorite_saved": "Добавлено в избранное",
+        "fee": "Комиссия: {fee}",
+        "title": "{currency} отправлен!"
+      }
+    },
+    "send_sending_failed": "Отправка неуспешна",
+    "send_sending_wrong_time_title": "Произошла ошибка",
+    "send_title": "Жіберу {currency}",
+    "settings_appearance": "Тема",
+    "settings_bank_card": "Банковская карта",
+    "settings_delete_alert_button": "Жою аккаунт и данные",
+    "settings_delete_alert_caption": "Это действие приведет к удалению вашего аккаунта и всех данных из этого приложения.",
+    "settings_delete_alert_title": "Вы уверены, что хотите удалить аккаунт?",
+    "settings_delete_signer_account": "Жою аккаунт?",
+    "settings_delete_watch_account": "Жою аккаунт для просмотра?",
+    "settings_delete_watch_account_button": "Жою",
+    "settings_reset_alert_button": "Шығу",
+    "settings_reset_alert_caption": "Доступ к әмиянға будет отключен. Убедитесь, что вы сохранили секретный ключ.",
+    "settings_reset_alert_caption_all": "Доступ к әмияным будет отключён. Убедитесь, что вы сохранили все секретные ключи.",
+    "settings_subscriptions": "Подписки",
+    "settings_theme": "Тема",
+    "settings_theme_names": {
+      "blue": "Темно-синяя",
+      "dark": "Тёмная",
+      "light": "Светлая",
+      "system": "Системная"
+    },
+    "settings_to_mainnet": "Переключить на Mainnet",
+    "settings_to_testnet": "Переключить на Testnet",
+    "setup_biometry_caption": "{biometryType} позволяет открывать әмиян быстрее без ввода пин-кода.",
+    "setup_biometry_enable_button": "Включить {biometryType}",
+    "setup_biometry_title": "Быстрый доступ с помощью\n{biometryType}",
+    "setup_notifications_caption": "Получайте уведомления при получении TON, токенов и NFT.",
+    "setup_notifications_enable_button": "Включить уведомления",
+    "setup_notifications_title": "Получайте мгновенные уведомления",
+    "signerConfirm": {
+      "confirm": "Подтвердите транзакцию в Signer",
+      "scan_qr": "Отсканируйте QR-код с помощью Signer",
+      "scan_signed_qr": "Отсканируйте QR-код подписанной транзакции Signer",
+      "step": "Шаг {value}",
+      "title": "Растау действие"
+    },
+    "skip": "Пропустить",
+    "staking": {
+      "active": "Активные",
+      "confirm": {
+        "address": {
+          "label": "Адрес получателя"
+        },
+        "amount": {
+          "label": "Сома",
+          "value": "{value} TON"
+        },
+        "fee": {
+          "label": "Комиссия",
+          "value": "≈ {value} TON"
+        },
+        "recipient": {
+          "label": "Алушы"
+        },
+        "withdraw_amount": {
+          "label": "Сома вывода",
+          "value": "{value} TON"
+        }
+      },
+      "confirm_deposit": "Растау и внести",
+      "confirm_unstake": "Растау и отправить",
+      "desc_large": "Участвуйте в стейкинге и получайте вознаграждения. Стейкинг поддерживает сеть TON.",
+      "details": {
+        "about_pool": "Детали",
+        "apy": {
+          "highest_tag": "MAX",
+          "label": "Годовая доходность",
+          "value": "≈ {value}%"
+        },
+        "balance": "Баланс стейкинга",
+        "cooldown": {
+          "active": "Активен",
+          "desc": "Двухчасовой период, применяемый в начале каждого стейкинг цикла для улучшения процесса снятия и внесения средств между циклами",
+          "title": "Период ожидания"
+        },
+        "frequency": {
+          "label": "Частота выплат",
+          "value": "Каждые {count} часа",
+          "value.few": "Каждые {count} часа",
+          "value.many": "Каждые {count} часов",
+          "value.one": "Каждые {count} час",
+          "value.zero": "Каждые {count} часов"
+        },
+        "links_title": "Ссылки",
+        "liquidity_token": {
+          "label": "Токен ликвидности {token}",
+          "value": "Толығырақ"
+        },
+        "min_deposit": {
+          "label": "Минимальный депозит",
+          "value": "{value} TON"
+        },
+        "next_cycle": {
+          "desc": "Все транзакции исполняются только после завершения цикла.",
+          "desc_liquid": "Запросы на вывод исполнятся после завершения цикла.",
+          "in": "через",
+          "message": "Запрос на вывод будет исполнен после завершения цикла через {value}",
+          "reward_title": "Следующая награда",
+          "title": "Следующий цикл"
+        },
+        "note": "Стейкинг основан на сторонних смарт-контрактах. Qazaq Wallet не несёт ответственность за стабильность и результат.",
+        "pendingDeposit": "Будет зачислено",
+        "pendingWithdraw": "Ожидают вывод",
+        "pendingWithdrawDesc": "после окончания цикла",
+        "readyWithdraw": "Вывод готов",
+        "socials": {
+          "telegram": "Сообщество",
+          "twitter": "Twitter"
+        },
+        "tap_to_collect": "Нажмите, чтобы вывести"
+      },
+      "estimated_profit": "{amount} TON – доход за год,  если внесёте TON сегодня.",
+      "estimated_profit_compare": "На {amount} TON в год прибыльнее чем ваш текущий стейкинг",
+      "get_withdrawal": "Алу вывод",
+      "highest_apy": "MAX APY",
+      "jetton_note": "Пулға TON салған кезде, пулдағы үлесіңізді білдіретін {token} токенін аласыз. Пулда пайда жинақталған сайын {token} көбірек TON мөлшерін көрсетеді.",
+      "learn_more": "Толығырақ",
+      "message": {
+        "pendingDeposit": {
+          "few": "{amount} TON будет\nзачислено ",
+          "many": "{amount} TON будет\nзачислено ",
+          "one": "{amount} TON будет\nзачислен ",
+          "other": "{amount} TON будет\nзачислено ",
+          "zero": "{amount} TON будет\nзачислено "
+        },
+        "pendingWithdraw": {
+          "few": "{amount} TON будет выведено\n",
+          "many": "{amount} TON будет выведено\n",
+          "one": "{amount} TON будет выведен\n",
+          "other": "{amount} TON будет выведено\n",
+          "zero": "{amount} TON будет выведено\n"
+        },
+        "pendingWithdrawLiquid": {
+          "few": "{amount} TON будет выведено\nпосле окончания цикла",
+          "many": "{amount} TON будет выведено\nпосле окончания цикла",
+          "one": "{amount} TON будет выведен\nпосле окончания цикла",
+          "other": "{amount} TON будет выведено\nпосле окончания цикла",
+          "zero": "{amount} TON будет выведено\nпосле окончания цикла"
+        },
+        "readyWithdraw": {
+          "few": "{amount} TON готовы к выводу.\nНажмите, чтобы вывести",
+          "many": "{amount} TON готовы к выводу.\nНажмите, чтобы вывести",
+          "one": "{amount} TON готов к выводу.\nНажмите, чтобы вывести",
+          "zero": "{amount} TON готовы к выводу.\nНажмите, чтобы вывести"
+        }
+      },
+      "no_funds": "Нет средств доступных для вывода",
+      "not_exists": "Неверный адрес пула",
+      "other": "Другие",
+      "rewards": {
+        "after_top_up": "После депозита",
+        "current": "Текущая",
+        "title": "Ваша годовая доходность",
+        "value": "≈ {value} TON"
+      },
+      "send_staked_ton": "Застейканного TON",
+      "staked": "Стейкинг",
+      "staked_ton": "Застейканный TON",
+      "staking_desc": "Мин. депозит {minStake} TON.\nЗарабатывайте до {maxApy}%.",
+      "staking_pool_desc": "APY ≈ {apy}%",
+      "title": "Стейкинг",
+      "title_large": "Стейкинг TON",
+      "top_up": "Внести",
+      "transaction": "Растау действие",
+      "warning": {
+        "about": "Толығырақ о {name}",
+        "beta_desc": "Мы не несём ответственность за стабильность и результат стейкинга. Используйте на свой страх и риск.",
+        "desc": "Стейкинг основан на сторонних смарт-контрактах. Мы не несем ответственность за их работу.",
+        "title": "Ескерту"
+      },
+      "widget_desc": "Годовая доходность до {apy}%",
+      "widget_staking_options": "Варианты стейкинга",
+      "widget_title": "Стейкинг TON",
+      "withdrawal_fee_warning": {
+        "continue": "Жалғастыру всё равно",
+        "message": "Пожалуйста, оставьте минимум '{{'amount'}}' TON на вашем балансе.",
+        "title": "У вас не останется для вывода"
+      },
+      "withdrawal_request": "Вывод"
+    },
+    "start_screen": {
+      "caption": "Создайте новый или подключите существующий әмиян"
+    },
+    "stop_watch": "Жою аккаунт",
+    "subscription_back_to_merchant_button": "Вернуться",
+    "subscription_back_to_merchant_caption": "Транзакция обрабатывается. Ваша подписка будет активна через пару минут.",
+    "subscription_back_to_merchant_name": "Вернуться в {merchantName}",
+    "subscription_back_to_merchant_title": "Вернуться в канал?",
+    "subscription_cancel": "Завершить подписку",
+    "subscription_cancel_alert_cancel_btn": "Не сейчас",
+    "subscription_cancel_alert_caption": "Если отписаться сейчас, подписка продолжит действовать до {nextBill}",
+    "subscription_cancel_alert_submit_btn": "Завершить",
+    "subscription_cancel_alert_title": "Завершить подписку?",
+    "subscription_expiring": "Завершается",
+    "subscription_fee": "Комиссия",
+    "subscription_next_bill": "След. списание",
+    "subscription_open_merchant": "Ашу в Telegram",
+    "subscription_period": "Период",
+    "subscription_period_custom": "Каждые {period}",
+    "subscription_period_day": "Ежедневно",
+    "subscription_period_half_year": "Каждые полгода",
+    "subscription_period_hour": "Каждый час",
+    "subscription_period_month": "Ежемесячно",
+    "subscription_period_quarter": "Поквартально",
+    "subscription_period_week": "Еженедельно",
+    "subscription_period_weeks": "Каждые {count} недели",
+    "subscription_period_year": "Ежегодно",
+    "subscription_price": "Цена",
+    "subscription_sent": "Транзакция отправлена",
+    "subscriptions_item_caption": "{price} TON, след. списание {nextBill}",
+    "subscriptions_item_caption_expired": "Завершена {date}",
+    "subscriptions_item_caption_expiring": "{price} TON, завершается {date}",
+    "subscriptions_section_active": "Активные",
+    "subscriptions_section_expired": "Завершённые",
+    "subscription_started": "Жазылым оформлена",
+    "subscriptions_title": "Подписки",
+    "subscription_subscribe": "Подписаться",
+    "subscription_title": "Жазылым",
+    "subscription_unsubscribe": "Отписаться",
+    "tab_browser": "Браузер",
+    "tab_collectibles": "Жинақтар",
+    "tab_nft": "NFT",
+    "tab_settings": "Баптаулар",
+    "tab_swap": "Айырбастау",
+    "tab_wallet": "Әмиян",
+    "tokenDetails": {
+      "name": "Аты",
+      "title": "Толығырақ о токене",
+      "token_id": "ID токена"
+    },
+    "tonconnect_error": {
+      "bad_request": "Некорректный запрос",
+      "wrong_from": "Неверный параметр 'from''",
+      "wrong_network": "Неверная сеть"
+    },
+    "ton_login_back_to_button": "Вернуться в {name}",
+    "ton_login_title": "Кіру в {0, number}omain",
+    "transaction_bid_collection_name": "Эмитент",
+    "transaction_bid_date": "Ставка {date}",
+    "transaction_buy_date": "Покупка {date}",
+    "transaction_buy_status_failed": "Не прошла",
+    "transaction_buy_status_pending": "В ожидании",
+    "transaction_buy_status_success": "Сәтті",
+    "transaction_confirmations": "Подтверждения",
+    "transaction_confirm_bid": "Подтвердите ставку",
+    "transaction_contract_deploy_date": "{date}",
+    "transaction_copy_caution": "Будьте осторожны при переходе по внешним ссылкам. Никогда не вводите свою секретную фразу на сторонних ресурсах, вы можете потерять свои средства.\n\n- - -\n\n",
+    "transactionDetails": {
+      "address": "Адрес",
+      "bid_collection_name": "Эмитент",
+      "bid_date": "Ставка {time}",
+      "bid_name": "Название",
+      "call_contract_date": "Вызов контракта {time}",
+      "description": "Описание",
+      "payload": "Данные",
+      "purchase_date": "Покупка {time}",
+      "received_date": "Получено {time}",
+      "recipient_address": "Адрес получателя",
+      "sender": "Жіберуші",
+      "sender_address": "Адрес отправителя",
+      "sent_date": "Отправлено {time}",
+      "spam": "СПАМ",
+      "subscription_merchant_label": "Продавец",
+      "subscription_product_label": "Жазылым",
+      "swapped_date": "Айырбастау {time}",
+      "transaction": "Транзакция",
+      "unsubscription_title": "Бас тарту подписки",
+      "withdraw_amount": "Сома вывода"
+    },
+    "transaction_exchange_from_currency": "Из",
+    "transaction_message": "Түсініктеме",
+    "transaction_purchase_id": "Покупка",
+    "transaction_refund": "Возврат",
+    "transactions": {
+      "bid": "Ставка",
+      "contract_deploy": "Создание контракта",
+      "deposit": "Депозит",
+      "failed_with_reason": {
+        "swap_refund_no_liq": "Сәтсіз. Увеличьте допустимый процент изменения цены (Slippage) в настройках обмена, чтобы избежать подобных ошибок."
+      },
+      "subscription": "Жазылым",
+      "unsubscription": "Бас тарту подписки",
+      "wallet_initialized": "Әмиян инициализирован",
+      "withdraw": "Вывод",
+      "withdrawal_request": "Запрос на вывод"
+    },
+    "transaction_send_more_button": "Жіберу ещё на этот адрес",
+    "transaction_show_subscription_button": "Информация о подписке",
+    "transaction_status": "Статус",
+    "transaction_subscription": "Жазылым",
+    "transaction_subscription_date": "Оплата {date}",
+    "transaction_transfer_name": "Передача имени",
+    "transaction_type_bounced": "Возвращено",
+    "transaction_type_buy": "Покупка",
+    "transaction_type_from": "Жіберуші",
+    "transaction_type_new_subscriber": "Новый подписчик",
+    "transaction_type_subscriber_lost": "Подписчик потерян",
+    "transaction_type_to": "Алушы",
+    "transaction_unsubscription": "Бас тарту подписки",
+    "transaction_unsubscription_date": "{date}",
+    "transaction_view_in_explorer": "Толығырақ",
+    "transaction_wallet_initialized_date": "{date}",
+    "transaction_your_bid": "Ваша ставка",
+    "transfer_deeplink_address_error": "Неверный адрес получателя",
+    "transfer_deeplink_amount_error": "Некорректный запрос суммы",
+    "transfer_deeplink_expired_error": "Срок действия ссылки истёк",
+    "transfer_deeplink_nft_address_error": "Неверный адрес NFT",
+    "transfer_deeplink_unknown_jetton_error": "Белгісіз токен",
+    "transfer_from_old_wallet_btn": "Перевести",
+    "transfer_from_old_wallet_caption": "Qazaq Wallet переведет всю сумму со старого адреса на текущий.",
+    "transfer_from_old_wallet_in_progress": "Идет перевод",
+    "transfer_from_old_wallet_title": "Перевод на текущий адрес",
+    "txActions": {
+      "signRaw": {
+        "addressMismatch": {
+          "switchWallet": {
+            "close": "Бас тарту",
+            "description": "Переключите әмиян, чтобы подтвердить действие.",
+            "switch": "Переключить и продолжить",
+            "title": "Действие для вашего әмияны {value}"
+          },
+          "wrongVersion": {
+            "close": "Бас тарту",
+            "description": "Переключите текущий адрес әмияны на %{version}, чтобы подтвердить действие.",
+            "switch": "Переключить и продолжить",
+            "title": "Действие для другого адреса вашего әмияны"
+          },
+          "wrongWallet": {
+            "close": "Хорошо",
+            "description": "Войдите в другой әмиян {address} и повторите попытку.",
+            "title": "Действие для другого әмияны"
+          }
+        },
+        "insufficientFunds": {
+          "rechargeBattery": "Зарядить батарейку",
+          "rechargeWallet": "Пополнить әмиян",
+          "stakingDeposit": "Минимальный баланс для участия:\n{amount} {currency}\n",
+          "stakingFee": {
+            "few": "Для совершения транзакции необходимо {count} TON. Предполагаемая комиссия в размере {fee} TON будет удержана, остаток будет возвращён.",
+            "many": "Для совершения транзакции необходимо {count} TON. Предполагаемая комиссия в размере {fee} TON будет удержана, остаток будет возвращён.",
+            "one": "Для совершения транзакции необходим {count} TON. Предполагаемая комиссия в размере {fee} TON будет удержана, остаток будет возвращён.",
+            "other": "Для совершения транзакции необходим {count} TON. Предполагаемая комиссия в размере {fee} TON будет удержана, остаток будет возвращён.",
+            "zero": "Для совершения транзакции необходимо {count} TON. Предполагаемая комиссия в размере {fee} TON будет удержана, остаток будет возвращён."
+          },
+          "title": "Қаражат жеткіліксіз",
+          "title_multiwallet": "Әмиянда қаражат жеткіліксіз",
+          "toBePaid": "Необходимо: {amount} {currency}\n",
+          "withFees": "+ комиссия сети.\n",
+          "yourBalance": "Ваш баланс: {balance} {currency}."
+        },
+        "totalFee": "Сомарная комиссия",
+        "totalRefund": "Сомарный возврат",
+        "types": {
+          "contractDeploy": "Деплой контракта",
+          "subscribe": "Жазылым",
+          "unSubscribe": "Отписка"
+        },
+        "warning_caption": "Qazaq Wallet не может полностью проверить результат этой транзакции. Убедитесь, что вы доверяете получателю.",
+        "warning_title": "Ескерту",
+        "wrongTime": {
+          "button": "Ашу настройки",
+          "description": "Похоже, часы вашего устройства не синхронизированы с сетью. Откройте настройки устройства и включите автоматическое время и дату.",
+          "title": "Время выставлено неверно"
+        }
+      }
+    },
+    "unverifiedTokenDetails": {
+      "button": "Понятно",
+      "description": "Токен выглядит подозрительно по одной или нескольким причинам.",
+      "paragraphs": {
+        "p1": "Низкая ликвидность. У токена может быть какая-то стоимость, но она крайне мала.",
+        "p2": "Токен не представлен на торговых площадках, имеет ограниченный спрос.",
+        "p3": "Используется для спама. Применяется для отправки нерелевантных сообщений в больших масштабах.",
+        "p4": "Используется в мошенничестве. Название токена или изображение может вводить пользователей в заблуждение."
+      },
+      "title": "Непроверенный токен"
+    },
+    "update": {
+      "description": "Доступна новая версия Qazaq Wallet. Вы можете скачать её прямо сейчас.",
+      "download": "Скачать",
+      "downloading": "Скачивание… '{{'progress'}}'%",
+      "mb": "'{{'size'}}' МБ",
+      "remindLater": "Напомнить позже",
+      "retry": "Қате загрузки. Нажмите, чтобы повторить попытку.",
+      "tap": "Нажмите, чтобы обновить",
+      "title": "Обновление Qazaq Wallet",
+      "version": "Нұсқа '{{'version'}}'"
+    },
+    "upgrade_to_w5": {
+      "about_button": "О кошельке W5",
+      "description": "Попробуйте новый әмиян W5 с поддержкой комиссий в USDT и другими новыми функциями.",
+      "hide_button": "Жасыру",
+      "settings": "Әмиян W5",
+      "title": "Безгазовые переводы",
+      "try_button": "Попробовать W5"
+    },
+    "username_issued_by_telegram": "Эмитент Telegram. ",
+    "username_manage_name_button": "Управлять именем",
+    "w5_stories": {
+      "0": {
+        "description": "W5 использует более эффективный подход к обработке транзакций, что приводит к значительному снижению затрат на газ. Комиссии до 25 % ниже, чем в версии v4.",
+        "title": "Сниженные комиссии блокчейна"
+      },
+      "1": {
+        "description": "W5 увеличивает количество одновременных операций с 4 до 255, что позволяет вам сэкономить на комиссиях.",
+        "title": "До 255 операций в одной транзакции"
+      },
+      "2": {
+        "description": "Отправляйте USDT без необходимости иметь TON: комиссии за транзакцию будут автоматически покрыты несколькими центами USDT.",
+        "title": "Безгазовые переводы USDT"
+      },
+      "3": {
+        "description": "Ваш старый и новый әмиян W5 используют один и тот же секретный ключ: при восстановлении на новом устройстве оба әмияны появятся автоматически.",
+        "title": "Ваш секретный ключ не меняется"
+      },
+      "4": {
+        "button": "Әмиян қосу W5",
+        "description": "Стандарт W5 не является окончательным. Безгазовые переводы пока в тестовом режиме. Не переносите все свои активы в әмиян W5 до финального релиза.",
+        "title": "W5 Beta"
+      }
+    },
+    "wallet_about": "Толығырақ",
+    "wallet": {
+      "buy_btn": "TON сатып алу",
+      "edit_tokens_btn": "Настроить",
+      "inscriptions_tab_label": "Инскрипции",
+      "nft_tab_lable": "Жинақтар",
+      "old_wallets_title": "Cтарые әмияндар",
+      "old_wallet_title": "Cтарый әмиян",
+      "receive_btn": "Алу",
+      "screen_title": "Әмиян",
+      "send_btn": "Жіберу",
+      "stake_btn": "Застейкать",
+      "swap_btn": "Айырбастау",
+      "tonkens_tab_lable": "Токендер",
+      "updated_at": "Обновлён {value}"
+    },
+    "wallet_chat": "Чат",
+    "wallet_community": "Сообщество",
+    "wallet_hours_symbol": "ч",
+    "wallet_old_balance": "Старый әмиян:",
+    "wallet_source_code": "Исходный код",
+    "watch_only": "Только просмотр"
+  },
+  "wallet_buy": "Сатып алу",
+  "wallet": {
+    "collectibles_tab_lable": "Жинақтар",
+    "scan_btn": "Сканировать"
+  },
+  "wallet_receive": "Алу",
+  "wallets": "Әмияндар",
+  "wallet_sell": "Сату",
+  "wallet_send": "Жіберу",
+  "wallet_swap": "Айырбастау",
+  "wallet_title": "Әмиян",
+  "yesterday": "Кеше"
+}

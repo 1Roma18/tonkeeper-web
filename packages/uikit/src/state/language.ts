@@ -1,7 +1,12 @@
 import { useAppSdk } from '../hooks/appSdk';
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AppKey } from '@tonkeeper/core/dist/Keys';
-import { Language, localizationText } from '@tonkeeper/core/dist/entries/language';
+import {
+    defaultLanguage,
+    isSupportedLanguage,
+    Language,
+    localizationText
+} from '@tonkeeper/core/dist/entries/language';
 import { QueryKey } from '../libs/queryKey';
 import { useTranslation } from '../hooks/translation';
 import { DeprecatedAccountState } from '@tonkeeper/core/dist/entries/account';
@@ -19,8 +24,8 @@ export const useUserLanguage = () => {
                 lang = await migrateLanguage(sdk.storage);
             }
 
-            if (!lang || !Object.values(Language).includes(lang)) {
-                return Language.EN;
+            if (!isSupportedLanguage(lang)) {
+                return defaultLanguage;
             }
 
             return lang;

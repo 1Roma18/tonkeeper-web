@@ -1,0 +1,68 @@
+# Public demo of Qazaq Wallet (GitHub Pages). Free link for reviews / AI feedback.
+name: Qazaq Wallet — GitHub Pages
+
+on:
+    workflow_dispatch:
+    push:
+        branches: [main, master]
+
+permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+concurrency:
+    group: qazaq-wallet-pages
+    cancel-in-progress: true
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        environment:
+            name: github-pages
+            url: ${{ steps.deploy.outputs.page_url }}
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Node
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20.11.1'
+
+            - name: Enable Corepack
+              run: corepack enable
+
+            - name: Install
+              run: yarn install --immutable
+
+            - name: Build locales
+              run: yarn workspace @tonkeeper/locales build
+
+            - name: Build web
+              run: yarn build:web
+              env:
+                  VITE_BASE_PATH: /${{ github.event.repository.name }}/
+
+            - name: SPA fallback (React Router)
+              run: cp apps/web/dist/index.html apps/web/dist/404.html
+
+            - name: Setup Pages
+              uses: actions/configure-pages@v5
+
+            - name: Upload
+              uses: actions/upload-pages-artifact@v3
+              with:
+                  path: apps/web/dist
+
+            - name: Deploy
+              id: deploy
+              uses: actions/deploy-pages@v4
+
+            - name: Summary
+              run: |
+                  echo "## Qazaq Wallet — live demo" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "**URL:** ${{ steps.deploy.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+                  echo "" >> $GITHUB_STEP_SUMMARY
+                  echo "Share this link for feedback (people and AI)." >> $GITHUB_STEP_SUMMARY

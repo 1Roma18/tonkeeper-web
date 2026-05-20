@@ -51,7 +51,7 @@ export const MobileProWelcomePage = () => {
                 <LogoIcon />
             </Icon>
             <Content>
-                <H2>Tonkeeper Pro</H2>
+                <H2>{t('tonkeeper_pro')}</H2>
                 <Body1>{t('pro_mobile_welcome_screen_title')}</Body1>
                 <ButtonsContainer>
                     <Button

@@ -13,11 +13,11 @@ if (!fs.existsSync('build')) {
     fs.mkdirSync('build');
 }
 if (!fs.existsSync(buildDestDir)) {
-    fs.mkdirSync(buildDestDir);
+    fs.mkdirSync(buildDestDir, { recursive: true });
 }
 fs.rmSync(devDestDir, { recursive: true, force: true });
 if (!fs.existsSync(devDestDir)) {
-    fs.mkdirSync(devDestDir);
+    fs.mkdirSync(devDestDir, { recursive: true });
 }
 fs.copySync(srcDir, buildDestDir, { overwrite: true });
 fs.copySync(srcDir, devDestDir, { overwrite: true });

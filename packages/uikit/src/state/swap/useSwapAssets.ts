@@ -31,8 +31,8 @@ import { useSwapsConfig } from './useSwapsConfig';
 import { useActiveApi } from '../wallet';
 import { atom } from '@tonkeeper/core/dist/entries/atom';
 import { FLAGGED_FEATURE, useIsFeatureEnabled } from '../tonendpoint';
-import { eqAddresses } from '@tonkeeper/core/src/utils/address';
-import { KNOWN_TON_ASSETS } from '@tonkeeper/core/src/entries/crypto/asset/constants';
+import { eqAddresses } from '@tonkeeper/core/dist/utils/address';
+import { KNOWN_TON_ASSETS } from '@tonkeeper/core/dist/entries/crypto/asset/constants';
 import {
     parseJettonScaledUIMultiplier,
     ScaledUIMultiplier
