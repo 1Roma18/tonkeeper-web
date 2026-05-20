@@ -3,6 +3,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { AppKey } from '@tonkeeper/core/dist/Keys';
 import {
     defaultLanguage,
+    detectPreferredLanguage,
     isSupportedLanguage,
     Language,
     localizationText
@@ -24,8 +25,9 @@ export const useUserLanguage = () => {
                 lang = await migrateLanguage(sdk.storage);
             }
 
-            if (!isSupportedLanguage(lang)) {
-                return defaultLanguage;
+            if (!lang || !isSupportedLanguage(lang)) {
+                lang = detectPreferredLanguage();
+                await sdk.storage.set(AppKey.LANGUAGE, lang);
             }
 
             return lang;

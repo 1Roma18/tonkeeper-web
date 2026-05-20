@@ -14,17 +14,15 @@ interface ActionProps {
 }
 
 const Text = styled(Label3)`
-    color: ${props => props.theme.textPrimary};
+    color: ${props => props.theme.textSecondary};
 `;
 
 const Button = styled.div`
     width: 44px;
     height: 44px;
     border-radius: ${props => props.theme.cornerFull};
-    color: ${props => props.theme.accentBlue};
+    color: ${props => props.theme.textPrimary};
     background-color: ${props => props.theme.backgroundContent};
-    border: 1px solid rgba(255, 255, 255, 0.22);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,10 +126,6 @@ export const ActionsRow = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 1rem;
-    min-height: 72px;
     margin-bottom: 2rem;
-    position: relative;
-    z-index: 2;
 `;

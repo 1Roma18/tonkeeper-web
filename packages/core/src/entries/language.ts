@@ -24,6 +24,47 @@ export enum Language {
 
 export const defaultLanguage: Language = Language.KK;
 
+const CIS_LANG_PREFIXES = ['ru', 'uk', 'be', 'uz', 'hy', 'ka', 'az', 'tg', 'ky'];
+
+/**
+ * First-launch language: kk for Kazakhstan product default, ru for CIS locales, en when explicit.
+ */
+export function detectPreferredLanguage(): Language {
+    if (typeof navigator === 'undefined') {
+        return defaultLanguage;
+    }
+
+    const nav = (navigator.language || '').toLowerCase();
+    const tgUser = (
+        globalThis as typeof globalThis & {
+            Telegram?: { WebApp?: { initDataUnsafe?: { user?: { language_code?: string } } } };
+        }
+    ).Telegram?.WebApp?.initDataUnsafe?.user?.language_code?.toLowerCase();
+
+    if (
+        nav.startsWith('kk') ||
+        nav.startsWith('kz') ||
+        tgUser === 'kk' ||
+        tgUser === 'kz'
+    ) {
+        return Language.KK;
+    }
+
+    if (nav.startsWith('en') || tgUser === 'en') {
+        return Language.EN;
+    }
+
+    if (
+        nav.startsWith('ru') ||
+        tgUser === 'ru' ||
+        CIS_LANG_PREFIXES.some(prefix => nav === prefix || nav.startsWith(`${prefix}-`))
+    ) {
+        return Language.RU;
+    }
+
+    return defaultLanguage;
+}
+
 /** Languages exposed in the app UI */
 export const languages = [Language.KK, Language.EN, Language.RU];
 
@@ -78,7 +119,7 @@ export const localizationText = (lang?: Language) => {
         case Language.KK:
             return 'kk';
         default:
-            return 'en';
+            return 'kk';
     }
 };
 

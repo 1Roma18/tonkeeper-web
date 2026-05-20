@@ -45,8 +45,6 @@ import { useIsActiveAccountMultisig } from '@tonkeeper/uikit/dist/state/multisig
 import { BrowserRouter } from 'react-router-dom';
 import { localesList } from '@tonkeeper/locales/localesList';
 import { CryptoStrategyInstaller } from '@tonkeeper/uikit/dist/components/pro/CryptoStrategyInstaller';
-import { QazaqThemeShell } from './theme/QazaqThemeShell';
-
 const QrScanner = React.lazy(() => import('@tonkeeper/uikit/dist/components/QrScanner'));
 const DesktopView = React.lazy(() => import('./AppDesktop'));
 
@@ -114,7 +112,6 @@ const ThemeAndContent = () => {
             proDisplayType="desktop"
             displayType={isMobile ? 'compact' : 'full-width'}
         >
-            <QazaqThemeShell>
             <DarkThemeContext.Provider value={!data?.valid}>
                 <GlobalStyle />
                 <HeaderGlobalStyle />
@@ -124,7 +121,6 @@ const ThemeAndContent = () => {
                 <Loader />
                 <UnlockNotification sdk={sdk} />
             </DarkThemeContext.Provider>
-            </QazaqThemeShell>
         </UserThemeProvider>
     );
 };
@@ -167,12 +163,14 @@ const Loader: FC = () => {
     );
 
     useEffect(() => {
-        if (activeAccount && lang && i18n.language !== localizationText(lang)) {
-            i18n.reloadResources([localizationText(lang)]).then(() =>
-                i18n.changeLanguage(localizationText(lang))
-            );
+        if (lang === undefined) {
+            return;
         }
-    }, [activeAccount, i18n]);
+        const code = localizationText(lang);
+        if (i18n.language !== code) {
+            i18n.reloadResources([code]).then(() => i18n.changeLanguage(code));
+        }
+    }, [lang, i18n]);
 
     const isMobile = useLayout();
 
